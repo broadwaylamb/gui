@@ -1,0 +1,1275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877D2C641DFC8B5E0004BB01 /* GNUstepGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C621DFC8B5E0004BB01 /* GNUstepGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877D2D5D1DFC8BAE0004BB01 /* externs.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C6A1DFC8BAD0004BB01 /* externs.m */; };
+		877D2D5E1DFC8BAE0004BB01 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C6B1DFC8BAD0004BB01 /* Functions.m */; };
+		877D2D5F1DFC8BAE0004BB01 /* GSAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C6C1DFC8BAD0004BB01 /* GSAnimator.m */; };
+		877D2D601DFC8BAE0004BB01 /* GSAutocompleteWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C6D1DFC8BAD0004BB01 /* GSAutocompleteWindow.h */; };
+		877D2D611DFC8BAE0004BB01 /* GSAutocompleteWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C6E1DFC8BAD0004BB01 /* GSAutocompleteWindow.m */; };
+		877D2D621DFC8BAE0004BB01 /* GSBindingHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C6F1DFC8BAD0004BB01 /* GSBindingHelpers.h */; };
+		877D2D631DFC8BAE0004BB01 /* GSCharacterPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C701DFC8BAD0004BB01 /* GSCharacterPanel.m */; };
+		877D2D641DFC8BAE0004BB01 /* GSDisplayServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C711DFC8BAD0004BB01 /* GSDisplayServer.m */; };
+		877D2D651DFC8BAE0004BB01 /* GSDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C721DFC8BAD0004BB01 /* GSDragView.m */; };
+		877D2D661DFC8BAE0004BB01 /* GSEPSPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C731DFC8BAD0004BB01 /* GSEPSPrintOperation.m */; };
+		877D2D671DFC8BAE0004BB01 /* GSFastEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C741DFC8BAD0004BB01 /* GSFastEnumeration.h */; };
+		877D2D681DFC8BAE0004BB01 /* GSFontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C751DFC8BAD0004BB01 /* GSFontInfo.m */; };
+		877D2D691DFC8BAE0004BB01 /* GSGhostscriptImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C761DFC8BAD0004BB01 /* GSGhostscriptImageRep.m */; };
+		877D2D6A1DFC8BAE0004BB01 /* GSGModelLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C771DFC8BAD0004BB01 /* GSGModelLoader.m */; };
+		877D2D6B1DFC8BAE0004BB01 /* GSGormLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C781DFC8BAD0004BB01 /* GSGormLoader.m */; };
+		877D2D6C1DFC8BAE0004BB01 /* GSGormLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C791DFC8BAD0004BB01 /* GSGormLoading.m */; };
+		877D2D6D1DFC8BAE0004BB01 /* GSGuiPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C7A1DFC8BAD0004BB01 /* GSGuiPrivate.h */; };
+		877D2D6E1DFC8BAE0004BB01 /* GSHbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C7B1DFC8BAD0004BB01 /* GSHbox.m */; };
+		877D2D6F1DFC8BAE0004BB01 /* GSHelpAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C7C1DFC8BAD0004BB01 /* GSHelpAttachment.m */; };
+		877D2D701DFC8BAE0004BB01 /* GSHelpManagerPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C7D1DFC8BAD0004BB01 /* GSHelpManagerPanel.m */; };
+		877D2D711DFC8BAE0004BB01 /* GSHorizontalTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C7E1DFC8BAD0004BB01 /* GSHorizontalTypesetter.m */; };
+		877D2D721DFC8BAE0004BB01 /* GSIconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C7F1DFC8BAD0004BB01 /* GSIconManager.h */; };
+		877D2D731DFC8BAE0004BB01 /* GSIconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C801DFC8BAD0004BB01 /* GSIconManager.m */; };
+		877D2D741DFC8BAE0004BB01 /* GSImageMagickImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C811DFC8BAD0004BB01 /* GSImageMagickImageRep.m */; };
+		877D2D751DFC8BAE0004BB01 /* GSInfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C821DFC8BAD0004BB01 /* GSInfoPanel.m */; };
+		877D2D761DFC8BAE0004BB01 /* GSKeyBindingAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C831DFC8BAD0004BB01 /* GSKeyBindingAction.h */; };
+		877D2D771DFC8BAE0004BB01 /* GSKeyBindingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C841DFC8BAD0004BB01 /* GSKeyBindingAction.m */; };
+		877D2D781DFC8BAE0004BB01 /* GSKeyBindingTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C851DFC8BAD0004BB01 /* GSKeyBindingTable.h */; };
+		877D2D791DFC8BAE0004BB01 /* GSKeyBindingTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C861DFC8BAD0004BB01 /* GSKeyBindingTable.m */; };
+		877D2D7A1DFC8BAE0004BB01 /* GSLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C871DFC8BAD0004BB01 /* GSLayoutManager.m */; };
+		877D2D7B1DFC8BAE0004BB01 /* GSMemoryPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C881DFC8BAD0004BB01 /* GSMemoryPanel.m */; };
+		877D2D7C1DFC8BAE0004BB01 /* GSModelLoaderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C891DFC8BAD0004BB01 /* GSModelLoaderFactory.m */; };
+		877D2D7D1DFC8BAE0004BB01 /* GSNibLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8A1DFC8BAD0004BB01 /* GSNibLoader.m */; };
+		877D2D7E1DFC8BAE0004BB01 /* GSNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8B1DFC8BAD0004BB01 /* GSNibLoading.m */; };
+		877D2D7F1DFC8BAE0004BB01 /* GSPDFPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8C1DFC8BAD0004BB01 /* GSPDFPrintOperation.m */; };
+		877D2D801DFC8BAE0004BB01 /* GSPrinting.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8D1DFC8BAD0004BB01 /* GSPrinting.m */; };
+		877D2D811DFC8BAE0004BB01 /* GSPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8E1DFC8BAD0004BB01 /* GSPrintOperation.m */; };
+		877D2D821DFC8BAE0004BB01 /* GSServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C8F1DFC8BAD0004BB01 /* GSServicesManager.m */; };
+		877D2D831DFC8BAE0004BB01 /* GSSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C901DFC8BAD0004BB01 /* GSSlideView.h */; };
+		877D2D841DFC8BAE0004BB01 /* GSSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C911DFC8BAD0004BB01 /* GSSlideView.m */; };
+		877D2D851DFC8BAE0004BB01 /* GSStandardWindowDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C921DFC8BAD0004BB01 /* GSStandardWindowDecorationView.m */; };
+		877D2D861DFC8BAE0004BB01 /* GSTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C931DFC8BAD0004BB01 /* GSTable.m */; };
+		877D2D871DFC8BAE0004BB01 /* GSTextFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C941DFC8BAD0004BB01 /* GSTextFinder.h */; };
+		877D2D881DFC8BAE0004BB01 /* GSTextFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C951DFC8BAD0004BB01 /* GSTextFinder.m */; };
+		877D2D891DFC8BAE0004BB01 /* GSTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C961DFC8BAD0004BB01 /* GSTextStorage.h */; };
+		877D2D8A1DFC8BAE0004BB01 /* GSTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C971DFC8BAD0004BB01 /* GSTextStorage.m */; };
+		877D2D8B1DFC8BAE0004BB01 /* GSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C981DFC8BAD0004BB01 /* GSTheme.m */; };
+		877D2D8C1DFC8BAE0004BB01 /* GSThemeDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C991DFC8BAD0004BB01 /* GSThemeDrawing.m */; };
+		877D2D8D1DFC8BAE0004BB01 /* GSThemeInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C9A1DFC8BAD0004BB01 /* GSThemeInspector.m */; };
+		877D2D8E1DFC8BAE0004BB01 /* GSThemeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C9B1DFC8BAD0004BB01 /* GSThemeMenu.m */; };
+		877D2D8F1DFC8BAE0004BB01 /* GSThemeOpenSavePanels.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C9C1DFC8BAD0004BB01 /* GSThemeOpenSavePanels.m */; };
+		877D2D901DFC8BAE0004BB01 /* GSThemePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C9D1DFC8BAD0004BB01 /* GSThemePanel.m */; };
+		877D2D911DFC8BAE0004BB01 /* GSThemePrintPanels.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2C9E1DFC8BAD0004BB01 /* GSThemePrintPanels.m */; };
+		877D2D921DFC8BAE0004BB01 /* GSThemePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2C9F1DFC8BAD0004BB01 /* GSThemePrivate.h */; };
+		877D2D931DFC8BAE0004BB01 /* GSThemeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA01DFC8BAD0004BB01 /* GSThemeTools.m */; };
+		877D2D941DFC8BAE0004BB01 /* GSThemeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA11DFC8BAD0004BB01 /* GSThemeWindow.m */; };
+		877D2D951DFC8BAE0004BB01 /* GSTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA21DFC8BAD0004BB01 /* GSTitleView.m */; };
+		877D2D961DFC8BAE0004BB01 /* GSToolbarCustomizationPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CA31DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.h */; };
+		877D2D971DFC8BAE0004BB01 /* GSToolbarCustomizationPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA41DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.m */; };
+		877D2D981DFC8BAE0004BB01 /* GSToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA51DFC8BAD0004BB01 /* GSToolbarView.m */; };
+		877D2D991DFC8BAE0004BB01 /* GSToolTips.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CA61DFC8BAD0004BB01 /* GSToolTips.h */; };
+		877D2D9A1DFC8BAE0004BB01 /* GSToolTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA71DFC8BAD0004BB01 /* GSToolTips.m */; };
+		877D2D9B1DFC8BAE0004BB01 /* GSTrackingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA81DFC8BAD0004BB01 /* GSTrackingRect.m */; };
+		877D2D9C1DFC8BAE0004BB01 /* GSTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CA91DFC8BAD0004BB01 /* GSTypesetter.m */; };
+		877D2D9D1DFC8BAE0004BB01 /* GSVbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAA1DFC8BAD0004BB01 /* GSVbox.m */; };
+		877D2D9E1DFC8BAE0004BB01 /* GSWindowDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAB1DFC8BAD0004BB01 /* GSWindowDecorationView.m */; };
+		877D2D9F1DFC8BAE0004BB01 /* GSXibElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAC1DFC8BAD0004BB01 /* GSXibElement.m */; };
+		877D2DA01DFC8BAE0004BB01 /* GSXibLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAD1DFC8BAD0004BB01 /* GSXibLoader.m */; };
+		877D2DA11DFC8BAE0004BB01 /* GSXibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAE1DFC8BAD0004BB01 /* GSXibLoading.m */; };
+		877D2DA21DFC8BAE0004BB01 /* GSXibObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CAF1DFC8BAD0004BB01 /* GSXibObjectContainer.m */; };
+		877D2DA31DFC8BAE0004BB01 /* GSXibParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB01DFC8BAD0004BB01 /* GSXibParser.m */; };
+		877D2DA41DFC8BAE0004BB01 /* libgnustep-gui.def in Resources */ = {isa = PBXBuildFile; fileRef = 877D2CB11DFC8BAD0004BB01 /* libgnustep-gui.def */; };
+		877D2DA51DFC8BAE0004BB01 /* linking.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB21DFC8BAD0004BB01 /* linking.m */; };
+		877D2DA61DFC8BAE0004BB01 /* NSActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB31DFC8BAD0004BB01 /* NSActionCell.m */; };
+		877D2DA71DFC8BAE0004BB01 /* NSAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB41DFC8BAD0004BB01 /* NSAffineTransform.m */; };
+		877D2DA81DFC8BAE0004BB01 /* NSAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB51DFC8BAD0004BB01 /* NSAlert.m */; };
+		877D2DA91DFC8BAE0004BB01 /* NSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB61DFC8BAD0004BB01 /* NSAnimation.m */; };
+		877D2DAA1DFC8BAE0004BB01 /* NSAnimationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB71DFC8BAD0004BB01 /* NSAnimationContext.m */; };
+		877D2DAB1DFC8BAE0004BB01 /* NSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB81DFC8BAD0004BB01 /* NSApplication.m */; };
+		877D2DAC1DFC8BAE0004BB01 /* NSArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CB91DFC8BAD0004BB01 /* NSArrayController.m */; };
+		877D2DAD1DFC8BAE0004BB01 /* NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CBA1DFC8BAD0004BB01 /* NSAttributedString.m */; };
+		877D2DAE1DFC8BAE0004BB01 /* NSBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CBB1DFC8BAD0004BB01 /* NSBezierPath.m */; };
+		877D2DAF1DFC8BAE0004BB01 /* NSBitmapImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CBC1DFC8BAD0004BB01 /* NSBitmapImageRep.m */; };
+		877D2DB01DFC8BAE0004BB01 /* NSBitmapImageRep+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CBD1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.h */; };
+		877D2DB11DFC8BAE0004BB01 /* NSBitmapImageRep+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CBE1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.m */; };
+		877D2DB21DFC8BAE0004BB01 /* NSBitmapImageRep+ICNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CBF1DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.h */; };
+		877D2DB31DFC8BAE0004BB01 /* NSBitmapImageRep+ICNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC01DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.m */; };
+		877D2DB41DFC8BAE0004BB01 /* NSBitmapImageRep+JPEG.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CC11DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.h */; };
+		877D2DB51DFC8BAE0004BB01 /* NSBitmapImageRep+JPEG.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC21DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.m */; };
+		877D2DB61DFC8BAE0004BB01 /* NSBitmapImageRep+PNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CC31DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.h */; };
+		877D2DB71DFC8BAE0004BB01 /* NSBitmapImageRep+PNG.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC41DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.m */; };
+		877D2DB81DFC8BAE0004BB01 /* NSBitmapImageRep+PNM.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CC51DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.h */; };
+		877D2DB91DFC8BAE0004BB01 /* NSBitmapImageRep+PNM.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC61DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.m */; };
+		877D2DBA1DFC8BAE0004BB01 /* NSBitmapImageRepPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CC71DFC8BAD0004BB01 /* NSBitmapImageRepPrivate.h */; };
+		877D2DBB1DFC8BAE0004BB01 /* NSBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC81DFC8BAD0004BB01 /* NSBox.m */; };
+		877D2DBC1DFC8BAE0004BB01 /* NSBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CC91DFC8BAD0004BB01 /* NSBrowser.m */; };
+		877D2DBD1DFC8BAE0004BB01 /* NSBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CCA1DFC8BAD0004BB01 /* NSBrowserCell.m */; };
+		877D2DBE1DFC8BAE0004BB01 /* NSBundleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CCB1DFC8BAD0004BB01 /* NSBundleAdditions.m */; };
+		877D2DBF1DFC8BAE0004BB01 /* NSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CCC1DFC8BAD0004BB01 /* NSButton.m */; };
+		877D2DC01DFC8BAE0004BB01 /* NSButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CCD1DFC8BAD0004BB01 /* NSButtonCell.m */; };
+		877D2DC11DFC8BAE0004BB01 /* NSButtonImageSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CCE1DFC8BAD0004BB01 /* NSButtonImageSource.h */; };
+		877D2DC21DFC8BAE0004BB01 /* NSButtonImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CCF1DFC8BAD0004BB01 /* NSButtonImageSource.m */; };
+		877D2DC31DFC8BAE0004BB01 /* NSCachedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD01DFC8BAD0004BB01 /* NSCachedImageRep.m */; };
+		877D2DC41DFC8BAE0004BB01 /* NSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD11DFC8BAD0004BB01 /* NSCell.m */; };
+		877D2DC51DFC8BAE0004BB01 /* NSClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD21DFC8BAD0004BB01 /* NSClipView.m */; };
+		877D2DC61DFC8BAE0004BB01 /* NSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD31DFC8BAD0004BB01 /* NSCollectionView.m */; };
+		877D2DC71DFC8BAE0004BB01 /* NSCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD41DFC8BAD0004BB01 /* NSCollectionViewItem.m */; };
+		877D2DC81DFC8BAE0004BB01 /* NSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD51DFC8BAD0004BB01 /* NSColor.m */; };
+		877D2DC91DFC8BAE0004BB01 /* NSColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD61DFC8BAD0004BB01 /* NSColorList.m */; };
+		877D2DCA1DFC8BAE0004BB01 /* NSColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD71DFC8BAD0004BB01 /* NSColorPanel.m */; };
+		877D2DCB1DFC8BAE0004BB01 /* NSColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD81DFC8BAD0004BB01 /* NSColorPicker.m */; };
+		877D2DCC1DFC8BAE0004BB01 /* NSColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CD91DFC8BAD0004BB01 /* NSColorSpace.m */; };
+		877D2DCD1DFC8BAE0004BB01 /* NSColorWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDA1DFC8BAD0004BB01 /* NSColorWell.m */; };
+		877D2DCE1DFC8BAE0004BB01 /* NSComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDB1DFC8BAD0004BB01 /* NSComboBox.m */; };
+		877D2DCF1DFC8BAE0004BB01 /* NSComboBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDC1DFC8BAD0004BB01 /* NSComboBoxCell.m */; };
+		877D2DD01DFC8BAE0004BB01 /* NSControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDD1DFC8BAD0004BB01 /* NSControl.m */; };
+		877D2DD11DFC8BAE0004BB01 /* NSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDE1DFC8BAD0004BB01 /* NSController.m */; };
+		877D2DD21DFC8BAE0004BB01 /* NSCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CDF1DFC8BAD0004BB01 /* NSCursor.m */; };
+		877D2DD31DFC8BAE0004BB01 /* NSCustomImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE01DFC8BAE0004BB01 /* NSCustomImageRep.m */; };
+		877D2DD41DFC8BAE0004BB01 /* NSDataLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE11DFC8BAE0004BB01 /* NSDataLink.m */; };
+		877D2DD51DFC8BAE0004BB01 /* NSDataLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE21DFC8BAE0004BB01 /* NSDataLinkManager.m */; };
+		877D2DD61DFC8BAE0004BB01 /* NSDataLinkPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE31DFC8BAE0004BB01 /* NSDataLinkPanel.m */; };
+		877D2DD71DFC8BAE0004BB01 /* NSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE41DFC8BAE0004BB01 /* NSDocument.m */; };
+		877D2DD81DFC8BAE0004BB01 /* NSDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE51DFC8BAE0004BB01 /* NSDocumentController.m */; };
+		877D2DD91DFC8BAE0004BB01 /* NSDocumentFrameworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CE61DFC8BAE0004BB01 /* NSDocumentFrameworkPrivate.h */; };
+		877D2DDA1DFC8BAE0004BB01 /* NSDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE71DFC8BAE0004BB01 /* NSDrawer.m */; };
+		877D2DDB1DFC8BAE0004BB01 /* NSEPSImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE81DFC8BAE0004BB01 /* NSEPSImageRep.m */; };
+		877D2DDC1DFC8BAE0004BB01 /* NSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CE91DFC8BAE0004BB01 /* NSEvent.m */; };
+		877D2DDD1DFC8BAE0004BB01 /* NSFileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CEA1DFC8BAE0004BB01 /* NSFileWrapper.m */; };
+		877D2DDE1DFC8BAE0004BB01 /* NSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CEB1DFC8BAE0004BB01 /* NSFont.m */; };
+		877D2DDF1DFC8BAE0004BB01 /* NSFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CEC1DFC8BAE0004BB01 /* NSFontDescriptor.m */; };
+		877D2DE01DFC8BAE0004BB01 /* NSFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CED1DFC8BAE0004BB01 /* NSFontManager.m */; };
+		877D2DE11DFC8BAE0004BB01 /* NSFontPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CEE1DFC8BAE0004BB01 /* NSFontPanel.m */; };
+		877D2DE21DFC8BAE0004BB01 /* NSForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CEF1DFC8BAE0004BB01 /* NSForm.m */; };
+		877D2DE31DFC8BAE0004BB01 /* NSFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF01DFC8BAE0004BB01 /* NSFormCell.m */; };
+		877D2DE41DFC8BAE0004BB01 /* NSGlyphGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF11DFC8BAE0004BB01 /* NSGlyphGenerator.m */; };
+		877D2DE51DFC8BAE0004BB01 /* NSGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF21DFC8BAE0004BB01 /* NSGradient.m */; };
+		877D2DE61DFC8BAE0004BB01 /* NSGraphicsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF31DFC8BAE0004BB01 /* NSGraphicsContext.m */; };
+		877D2DE71DFC8BAE0004BB01 /* NSHelpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF41DFC8BAE0004BB01 /* NSHelpManager.m */; };
+		877D2DE81DFC8BAE0004BB01 /* NSHelpPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF51DFC8BAE0004BB01 /* NSHelpPanel.m */; };
+		877D2DE91DFC8BAE0004BB01 /* nsimage-tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2CF61DFC8BAE0004BB01 /* nsimage-tiff.h */; };
+		877D2DEA1DFC8BAE0004BB01 /* NSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF71DFC8BAE0004BB01 /* NSImage.m */; };
+		877D2DEB1DFC8BAE0004BB01 /* NSImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF81DFC8BAE0004BB01 /* NSImageCell.m */; };
+		877D2DEC1DFC8BAE0004BB01 /* NSImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CF91DFC8BAE0004BB01 /* NSImageRep.m */; };
+		877D2DED1DFC8BAE0004BB01 /* NSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFA1DFC8BAE0004BB01 /* NSImageView.m */; };
+		877D2DEE1DFC8BAE0004BB01 /* NSInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFB1DFC8BAE0004BB01 /* NSInputManager.m */; };
+		877D2DEF1DFC8BAE0004BB01 /* NSInputServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFC1DFC8BAE0004BB01 /* NSInputServer.m */; };
+		877D2DF01DFC8BAE0004BB01 /* NSInterfaceStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFD1DFC8BAE0004BB01 /* NSInterfaceStyle.m */; };
+		877D2DF11DFC8BAE0004BB01 /* NSKeyValueBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFE1DFC8BAE0004BB01 /* NSKeyValueBinding.m */; };
+		877D2DF21DFC8BAE0004BB01 /* NSLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2CFF1DFC8BAE0004BB01 /* NSLayoutManager.m */; };
+		877D2DF31DFC8BAE0004BB01 /* NSLevelIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D001DFC8BAE0004BB01 /* NSLevelIndicator.m */; };
+		877D2DF41DFC8BAE0004BB01 /* NSLevelIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D011DFC8BAE0004BB01 /* NSLevelIndicatorCell.m */; };
+		877D2DF51DFC8BAE0004BB01 /* NSMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D021DFC8BAE0004BB01 /* NSMatrix.m */; };
+		877D2DF61DFC8BAE0004BB01 /* NSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D031DFC8BAE0004BB01 /* NSMenu.m */; };
+		877D2DF71DFC8BAE0004BB01 /* NSMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D041DFC8BAE0004BB01 /* NSMenuItem.m */; };
+		877D2DF81DFC8BAE0004BB01 /* NSMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D051DFC8BAE0004BB01 /* NSMenuItemCell.m */; };
+		877D2DF91DFC8BAE0004BB01 /* NSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D061DFC8BAE0004BB01 /* NSMenuView.m */; };
+		877D2DFA1DFC8BAE0004BB01 /* NSMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D071DFC8BAE0004BB01 /* NSMovie.m */; };
+		877D2DFB1DFC8BAE0004BB01 /* NSMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D081DFC8BAE0004BB01 /* NSMovieView.m */; };
+		877D2DFC1DFC8BAE0004BB01 /* NSNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D091DFC8BAE0004BB01 /* NSNib.m */; };
+		877D2DFD1DFC8BAE0004BB01 /* NSNibAXAttributeConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0A1DFC8BAE0004BB01 /* NSNibAXAttributeConnector.m */; };
+		877D2DFE1DFC8BAE0004BB01 /* NSNibAXRelationshipConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0B1DFC8BAE0004BB01 /* NSNibAXRelationshipConnector.m */; };
+		877D2DFF1DFC8BAE0004BB01 /* NSNibBindingConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0C1DFC8BAE0004BB01 /* NSNibBindingConnector.m */; };
+		877D2E001DFC8BAE0004BB01 /* NSNibConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0D1DFC8BAE0004BB01 /* NSNibConnector.m */; };
+		877D2E011DFC8BAE0004BB01 /* NSObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0E1DFC8BAE0004BB01 /* NSObjectController.m */; };
+		877D2E021DFC8BAE0004BB01 /* NSOpenGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D0F1DFC8BAE0004BB01 /* NSOpenGLContext.m */; };
+		877D2E031DFC8BAE0004BB01 /* NSOpenGLPixelFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D101DFC8BAE0004BB01 /* NSOpenGLPixelFormat.m */; };
+		877D2E041DFC8BAE0004BB01 /* NSOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D111DFC8BAE0004BB01 /* NSOpenGLView.m */; };
+		877D2E051DFC8BAE0004BB01 /* NSOpenPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D121DFC8BAE0004BB01 /* NSOpenPanel.m */; };
+		877D2E061DFC8BAE0004BB01 /* NSOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D131DFC8BAE0004BB01 /* NSOutlineView.m */; };
+		877D2E071DFC8BAE0004BB01 /* NSPageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D141DFC8BAE0004BB01 /* NSPageLayout.m */; };
+		877D2E081DFC8BAE0004BB01 /* NSPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D151DFC8BAE0004BB01 /* NSPanel.m */; };
+		877D2E091DFC8BAE0004BB01 /* NSParagraphStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D161DFC8BAE0004BB01 /* NSParagraphStyle.m */; };
+		877D2E0A1DFC8BAE0004BB01 /* NSPasteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D171DFC8BAE0004BB01 /* NSPasteboard.m */; };
+		877D2E0B1DFC8BAE0004BB01 /* NSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D181DFC8BAE0004BB01 /* NSPopover.m */; };
+		877D2E0C1DFC8BAE0004BB01 /* NSPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D191DFC8BAE0004BB01 /* NSPopUpButton.m */; };
+		877D2E0D1DFC8BAE0004BB01 /* NSPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1A1DFC8BAE0004BB01 /* NSPopUpButtonCell.m */; };
+		877D2E0E1DFC8BAE0004BB01 /* NSPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1B1DFC8BAE0004BB01 /* NSPrinter.m */; };
+		877D2E0F1DFC8BAE0004BB01 /* NSPrintInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1C1DFC8BAE0004BB01 /* NSPrintInfo.m */; };
+		877D2E101DFC8BAE0004BB01 /* NSPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1D1DFC8BAE0004BB01 /* NSPrintOperation.m */; };
+		877D2E111DFC8BAE0004BB01 /* NSPrintPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1E1DFC8BAE0004BB01 /* NSPrintPanel.m */; };
+		877D2E121DFC8BAE0004BB01 /* NSProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D1F1DFC8BAE0004BB01 /* NSProgressIndicator.m */; };
+		877D2E131DFC8BAE0004BB01 /* NSResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D201DFC8BAE0004BB01 /* NSResponder.m */; };
+		877D2E141DFC8BAE0004BB01 /* NSRulerMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D211DFC8BAE0004BB01 /* NSRulerMarker.m */; };
+		877D2E151DFC8BAE0004BB01 /* NSRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D221DFC8BAE0004BB01 /* NSRulerView.m */; };
+		877D2E161DFC8BAE0004BB01 /* NSSavePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D231DFC8BAE0004BB01 /* NSSavePanel.m */; };
+		877D2E171DFC8BAE0004BB01 /* NSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D241DFC8BAE0004BB01 /* NSScreen.m */; };
+		877D2E181DFC8BAE0004BB01 /* NSScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D251DFC8BAE0004BB01 /* NSScroller.m */; };
+		877D2E191DFC8BAE0004BB01 /* NSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D261DFC8BAE0004BB01 /* NSScrollView.m */; };
+		877D2E1A1DFC8BAE0004BB01 /* NSSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D271DFC8BAE0004BB01 /* NSSearchField.m */; };
+		877D2E1B1DFC8BAE0004BB01 /* NSSearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D281DFC8BAE0004BB01 /* NSSearchFieldCell.m */; };
+		877D2E1C1DFC8BAE0004BB01 /* NSSecureTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D291DFC8BAE0004BB01 /* NSSecureTextField.m */; };
+		877D2E1D1DFC8BAE0004BB01 /* NSSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2A1DFC8BAE0004BB01 /* NSSegmentedCell.m */; };
+		877D2E1E1DFC8BAE0004BB01 /* NSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2B1DFC8BAE0004BB01 /* NSSegmentedControl.m */; };
+		877D2E1F1DFC8BAE0004BB01 /* NSSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2C1DFC8BAE0004BB01 /* NSSelection.m */; };
+		877D2E201DFC8BAE0004BB01 /* NSShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2D1DFC8BAE0004BB01 /* NSShadow.m */; };
+		877D2E211DFC8BAE0004BB01 /* NSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2E1DFC8BAE0004BB01 /* NSSlider.m */; };
+		877D2E221DFC8BAE0004BB01 /* NSSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D2F1DFC8BAE0004BB01 /* NSSliderCell.m */; };
+		877D2E231DFC8BAE0004BB01 /* NSSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D301DFC8BAE0004BB01 /* NSSound.m */; };
+		877D2E241DFC8BAE0004BB01 /* NSSpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D311DFC8BAE0004BB01 /* NSSpeechSynthesizer.m */; };
+		877D2E251DFC8BAE0004BB01 /* NSSpellChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D321DFC8BAE0004BB01 /* NSSpellChecker.m */; };
+		877D2E261DFC8BAE0004BB01 /* NSSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D331DFC8BAE0004BB01 /* NSSplitView.m */; };
+		877D2E271DFC8BAE0004BB01 /* NSStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D341DFC8BAE0004BB01 /* NSStatusBar.m */; };
+		877D2E281DFC8BAE0004BB01 /* NSStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D351DFC8BAE0004BB01 /* NSStatusItem.m */; };
+		877D2E291DFC8BAE0004BB01 /* NSStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D361DFC8BAE0004BB01 /* NSStepper.m */; };
+		877D2E2A1DFC8BAE0004BB01 /* NSStepperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D371DFC8BAE0004BB01 /* NSStepperCell.m */; };
+		877D2E2B1DFC8BAE0004BB01 /* NSStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D381DFC8BAE0004BB01 /* NSStringDrawing.m */; };
+		877D2E2C1DFC8BAE0004BB01 /* NSTableColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D391DFC8BAE0004BB01 /* NSTableColumn.m */; };
+		877D2E2D1DFC8BAE0004BB01 /* NSTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3A1DFC8BAE0004BB01 /* NSTableHeaderCell.m */; };
+		877D2E2E1DFC8BAE0004BB01 /* NSTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3B1DFC8BAE0004BB01 /* NSTableHeaderView.m */; };
+		877D2E2F1DFC8BAE0004BB01 /* NSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3C1DFC8BAE0004BB01 /* NSTableView.m */; };
+		877D2E301DFC8BAE0004BB01 /* NSTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3D1DFC8BAE0004BB01 /* NSTabView.m */; };
+		877D2E311DFC8BAE0004BB01 /* NSTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3E1DFC8BAE0004BB01 /* NSTabViewItem.m */; };
+		877D2E321DFC8BAE0004BB01 /* NSText.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D3F1DFC8BAE0004BB01 /* NSText.m */; };
+		877D2E331DFC8BAE0004BB01 /* NSTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D401DFC8BAE0004BB01 /* NSTextAttachment.m */; };
+		877D2E341DFC8BAE0004BB01 /* NSTextBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D411DFC8BAE0004BB01 /* NSTextBlock.m */; };
+		877D2E351DFC8BAE0004BB01 /* NSTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D421DFC8BAE0004BB01 /* NSTextContainer.m */; };
+		877D2E361DFC8BAE0004BB01 /* NSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D431DFC8BAE0004BB01 /* NSTextField.m */; };
+		877D2E371DFC8BAE0004BB01 /* NSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D441DFC8BAE0004BB01 /* NSTextFieldCell.m */; };
+		877D2E381DFC8BAE0004BB01 /* NSTextList.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D451DFC8BAE0004BB01 /* NSTextList.m */; };
+		877D2E391DFC8BAE0004BB01 /* NSTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D461DFC8BAE0004BB01 /* NSTextStorage.m */; };
+		877D2E3A1DFC8BAE0004BB01 /* NSTextTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D471DFC8BAE0004BB01 /* NSTextTable.m */; };
+		877D2E3B1DFC8BAE0004BB01 /* NSTextTableBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D481DFC8BAE0004BB01 /* NSTextTableBlock.m */; };
+		877D2E3C1DFC8BAE0004BB01 /* NSTextView_actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D491DFC8BAE0004BB01 /* NSTextView_actions.m */; };
+		877D2E3D1DFC8BAE0004BB01 /* NSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D4A1DFC8BAE0004BB01 /* NSTextView.m */; };
+		877D2E3E1DFC8BAE0004BB01 /* NSTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D4B1DFC8BAE0004BB01 /* NSTokenField.m */; };
+		877D2E3F1DFC8BAE0004BB01 /* NSTokenFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D4C1DFC8BAE0004BB01 /* NSTokenFieldCell.m */; };
+		877D2E401DFC8BAE0004BB01 /* NSToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D4D1DFC8BAE0004BB01 /* NSToolbar.m */; };
+		877D2E411DFC8BAE0004BB01 /* NSToolbarFrameworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2D4E1DFC8BAE0004BB01 /* NSToolbarFrameworkPrivate.h */; };
+		877D2E421DFC8BAE0004BB01 /* NSToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D4F1DFC8BAE0004BB01 /* NSToolbarItem.m */; };
+		877D2E431DFC8BAE0004BB01 /* NSToolbarItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D501DFC8BAE0004BB01 /* NSToolbarItemGroup.m */; };
+		877D2E441DFC8BAE0004BB01 /* NSTrackingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D511DFC8BAE0004BB01 /* NSTrackingArea.m */; };
+		877D2E451DFC8BAE0004BB01 /* NSTreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D521DFC8BAE0004BB01 /* NSTreeController.m */; };
+		877D2E461DFC8BAE0004BB01 /* NSTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D531DFC8BAE0004BB01 /* NSTreeNode.m */; };
+		877D2E471DFC8BAE0004BB01 /* NSUserDefaultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D541DFC8BAE0004BB01 /* NSUserDefaultsController.m */; };
+		877D2E481DFC8BAE0004BB01 /* NSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D551DFC8BAE0004BB01 /* NSView.m */; };
+		877D2E491DFC8BAE0004BB01 /* NSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D561DFC8BAE0004BB01 /* NSViewController.m */; };
+		877D2E4A1DFC8BAE0004BB01 /* NSViewPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 877D2D571DFC8BAE0004BB01 /* NSViewPrivate.h */; };
+		877D2E4B1DFC8BAE0004BB01 /* NSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D581DFC8BAE0004BB01 /* NSWindow.m */; };
+		877D2E4C1DFC8BAE0004BB01 /* NSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D591DFC8BAE0004BB01 /* NSWindowController.m */; };
+		877D2E4D1DFC8BAE0004BB01 /* NSWorkspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D5A1DFC8BAE0004BB01 /* NSWorkspace.m */; };
+		877D2E4E1DFC8BAE0004BB01 /* tiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D5B1DFC8BAE0004BB01 /* tiff.m */; };
+		877D2E4F1DFC8BAE0004BB01 /* win32-entry.c in Sources */ = {isa = PBXBuildFile; fileRef = 877D2D5C1DFC8BAE0004BB01 /* win32-entry.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		877D2C5F1DFC8B5E0004BB01 /* GNUstepGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNUstepGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		877D2C621DFC8B5E0004BB01 /* GNUstepGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNUstepGUI.h; sourceTree = "<group>"; };
+		877D2C631DFC8B5E0004BB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877D2C6A1DFC8BAD0004BB01 /* externs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = externs.m; path = Source/externs.m; sourceTree = SOURCE_ROOT; };
+		877D2C6B1DFC8BAD0004BB01 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Functions.m; path = Source/Functions.m; sourceTree = SOURCE_ROOT; };
+		877D2C6C1DFC8BAD0004BB01 /* GSAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSAnimator.m; path = Source/GSAnimator.m; sourceTree = SOURCE_ROOT; };
+		877D2C6D1DFC8BAD0004BB01 /* GSAutocompleteWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSAutocompleteWindow.h; path = Source/GSAutocompleteWindow.h; sourceTree = SOURCE_ROOT; };
+		877D2C6E1DFC8BAD0004BB01 /* GSAutocompleteWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSAutocompleteWindow.m; path = Source/GSAutocompleteWindow.m; sourceTree = SOURCE_ROOT; };
+		877D2C6F1DFC8BAD0004BB01 /* GSBindingHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSBindingHelpers.h; path = Source/GSBindingHelpers.h; sourceTree = SOURCE_ROOT; };
+		877D2C701DFC8BAD0004BB01 /* GSCharacterPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCharacterPanel.m; path = Source/GSCharacterPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2C711DFC8BAD0004BB01 /* GSDisplayServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSDisplayServer.m; path = Source/GSDisplayServer.m; sourceTree = SOURCE_ROOT; };
+		877D2C721DFC8BAD0004BB01 /* GSDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSDragView.m; path = Source/GSDragView.m; sourceTree = SOURCE_ROOT; };
+		877D2C731DFC8BAD0004BB01 /* GSEPSPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSEPSPrintOperation.m; path = Source/GSEPSPrintOperation.m; sourceTree = SOURCE_ROOT; };
+		877D2C741DFC8BAD0004BB01 /* GSFastEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSFastEnumeration.h; path = Source/GSFastEnumeration.h; sourceTree = SOURCE_ROOT; };
+		877D2C751DFC8BAD0004BB01 /* GSFontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSFontInfo.m; path = Source/GSFontInfo.m; sourceTree = SOURCE_ROOT; };
+		877D2C761DFC8BAD0004BB01 /* GSGhostscriptImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSGhostscriptImageRep.m; path = Source/GSGhostscriptImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2C771DFC8BAD0004BB01 /* GSGModelLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSGModelLoader.m; path = Source/GSGModelLoader.m; sourceTree = SOURCE_ROOT; };
+		877D2C781DFC8BAD0004BB01 /* GSGormLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSGormLoader.m; path = Source/GSGormLoader.m; sourceTree = SOURCE_ROOT; };
+		877D2C791DFC8BAD0004BB01 /* GSGormLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSGormLoading.m; path = Source/GSGormLoading.m; sourceTree = SOURCE_ROOT; };
+		877D2C7A1DFC8BAD0004BB01 /* GSGuiPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSGuiPrivate.h; path = Source/GSGuiPrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2C7B1DFC8BAD0004BB01 /* GSHbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSHbox.m; path = Source/GSHbox.m; sourceTree = SOURCE_ROOT; };
+		877D2C7C1DFC8BAD0004BB01 /* GSHelpAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSHelpAttachment.m; path = Source/GSHelpAttachment.m; sourceTree = SOURCE_ROOT; };
+		877D2C7D1DFC8BAD0004BB01 /* GSHelpManagerPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSHelpManagerPanel.m; path = Source/GSHelpManagerPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2C7E1DFC8BAD0004BB01 /* GSHorizontalTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSHorizontalTypesetter.m; path = Source/GSHorizontalTypesetter.m; sourceTree = SOURCE_ROOT; };
+		877D2C7F1DFC8BAD0004BB01 /* GSIconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSIconManager.h; path = Source/GSIconManager.h; sourceTree = SOURCE_ROOT; };
+		877D2C801DFC8BAD0004BB01 /* GSIconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSIconManager.m; path = Source/GSIconManager.m; sourceTree = SOURCE_ROOT; };
+		877D2C811DFC8BAD0004BB01 /* GSImageMagickImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSImageMagickImageRep.m; path = Source/GSImageMagickImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2C821DFC8BAD0004BB01 /* GSInfoPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSInfoPanel.m; path = Source/GSInfoPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2C831DFC8BAD0004BB01 /* GSKeyBindingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKeyBindingAction.h; path = Source/GSKeyBindingAction.h; sourceTree = SOURCE_ROOT; };
+		877D2C841DFC8BAD0004BB01 /* GSKeyBindingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSKeyBindingAction.m; path = Source/GSKeyBindingAction.m; sourceTree = SOURCE_ROOT; };
+		877D2C851DFC8BAD0004BB01 /* GSKeyBindingTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKeyBindingTable.h; path = Source/GSKeyBindingTable.h; sourceTree = SOURCE_ROOT; };
+		877D2C861DFC8BAD0004BB01 /* GSKeyBindingTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSKeyBindingTable.m; path = Source/GSKeyBindingTable.m; sourceTree = SOURCE_ROOT; };
+		877D2C871DFC8BAD0004BB01 /* GSLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSLayoutManager.m; path = Source/GSLayoutManager.m; sourceTree = SOURCE_ROOT; };
+		877D2C881DFC8BAD0004BB01 /* GSMemoryPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSMemoryPanel.m; path = Source/GSMemoryPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2C891DFC8BAD0004BB01 /* GSModelLoaderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSModelLoaderFactory.m; path = Source/GSModelLoaderFactory.m; sourceTree = SOURCE_ROOT; };
+		877D2C8A1DFC8BAD0004BB01 /* GSNibLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSNibLoader.m; path = Source/GSNibLoader.m; sourceTree = SOURCE_ROOT; };
+		877D2C8B1DFC8BAD0004BB01 /* GSNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSNibLoading.m; path = Source/GSNibLoading.m; sourceTree = SOURCE_ROOT; };
+		877D2C8C1DFC8BAD0004BB01 /* GSPDFPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPDFPrintOperation.m; path = Source/GSPDFPrintOperation.m; sourceTree = SOURCE_ROOT; };
+		877D2C8D1DFC8BAD0004BB01 /* GSPrinting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPrinting.m; path = Source/GSPrinting.m; sourceTree = SOURCE_ROOT; };
+		877D2C8E1DFC8BAD0004BB01 /* GSPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPrintOperation.m; path = Source/GSPrintOperation.m; sourceTree = SOURCE_ROOT; };
+		877D2C8F1DFC8BAD0004BB01 /* GSServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSServicesManager.m; path = Source/GSServicesManager.m; sourceTree = SOURCE_ROOT; };
+		877D2C901DFC8BAD0004BB01 /* GSSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSSlideView.h; path = Source/GSSlideView.h; sourceTree = SOURCE_ROOT; };
+		877D2C911DFC8BAD0004BB01 /* GSSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSSlideView.m; path = Source/GSSlideView.m; sourceTree = SOURCE_ROOT; };
+		877D2C921DFC8BAD0004BB01 /* GSStandardWindowDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSStandardWindowDecorationView.m; path = Source/GSStandardWindowDecorationView.m; sourceTree = SOURCE_ROOT; };
+		877D2C931DFC8BAD0004BB01 /* GSTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTable.m; path = Source/GSTable.m; sourceTree = SOURCE_ROOT; };
+		877D2C941DFC8BAD0004BB01 /* GSTextFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSTextFinder.h; path = Source/GSTextFinder.h; sourceTree = SOURCE_ROOT; };
+		877D2C951DFC8BAD0004BB01 /* GSTextFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTextFinder.m; path = Source/GSTextFinder.m; sourceTree = SOURCE_ROOT; };
+		877D2C961DFC8BAD0004BB01 /* GSTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSTextStorage.h; path = Source/GSTextStorage.h; sourceTree = SOURCE_ROOT; };
+		877D2C971DFC8BAD0004BB01 /* GSTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTextStorage.m; path = Source/GSTextStorage.m; sourceTree = SOURCE_ROOT; };
+		877D2C981DFC8BAD0004BB01 /* GSTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTheme.m; path = Source/GSTheme.m; sourceTree = SOURCE_ROOT; };
+		877D2C991DFC8BAD0004BB01 /* GSThemeDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeDrawing.m; path = Source/GSThemeDrawing.m; sourceTree = SOURCE_ROOT; };
+		877D2C9A1DFC8BAD0004BB01 /* GSThemeInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeInspector.m; path = Source/GSThemeInspector.m; sourceTree = SOURCE_ROOT; };
+		877D2C9B1DFC8BAD0004BB01 /* GSThemeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeMenu.m; path = Source/GSThemeMenu.m; sourceTree = SOURCE_ROOT; };
+		877D2C9C1DFC8BAD0004BB01 /* GSThemeOpenSavePanels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeOpenSavePanels.m; path = Source/GSThemeOpenSavePanels.m; sourceTree = SOURCE_ROOT; };
+		877D2C9D1DFC8BAD0004BB01 /* GSThemePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemePanel.m; path = Source/GSThemePanel.m; sourceTree = SOURCE_ROOT; };
+		877D2C9E1DFC8BAD0004BB01 /* GSThemePrintPanels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemePrintPanels.m; path = Source/GSThemePrintPanels.m; sourceTree = SOURCE_ROOT; };
+		877D2C9F1DFC8BAD0004BB01 /* GSThemePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSThemePrivate.h; path = Source/GSThemePrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2CA01DFC8BAD0004BB01 /* GSThemeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeTools.m; path = Source/GSThemeTools.m; sourceTree = SOURCE_ROOT; };
+		877D2CA11DFC8BAD0004BB01 /* GSThemeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSThemeWindow.m; path = Source/GSThemeWindow.m; sourceTree = SOURCE_ROOT; };
+		877D2CA21DFC8BAD0004BB01 /* GSTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTitleView.m; path = Source/GSTitleView.m; sourceTree = SOURCE_ROOT; };
+		877D2CA31DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSToolbarCustomizationPalette.h; path = Source/GSToolbarCustomizationPalette.h; sourceTree = SOURCE_ROOT; };
+		877D2CA41DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSToolbarCustomizationPalette.m; path = Source/GSToolbarCustomizationPalette.m; sourceTree = SOURCE_ROOT; };
+		877D2CA51DFC8BAD0004BB01 /* GSToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSToolbarView.m; path = Source/GSToolbarView.m; sourceTree = SOURCE_ROOT; };
+		877D2CA61DFC8BAD0004BB01 /* GSToolTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSToolTips.h; path = Source/GSToolTips.h; sourceTree = SOURCE_ROOT; };
+		877D2CA71DFC8BAD0004BB01 /* GSToolTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSToolTips.m; path = Source/GSToolTips.m; sourceTree = SOURCE_ROOT; };
+		877D2CA81DFC8BAD0004BB01 /* GSTrackingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTrackingRect.m; path = Source/GSTrackingRect.m; sourceTree = SOURCE_ROOT; };
+		877D2CA91DFC8BAD0004BB01 /* GSTypesetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSTypesetter.m; path = Source/GSTypesetter.m; sourceTree = SOURCE_ROOT; };
+		877D2CAA1DFC8BAD0004BB01 /* GSVbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSVbox.m; path = Source/GSVbox.m; sourceTree = SOURCE_ROOT; };
+		877D2CAB1DFC8BAD0004BB01 /* GSWindowDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSWindowDecorationView.m; path = Source/GSWindowDecorationView.m; sourceTree = SOURCE_ROOT; };
+		877D2CAC1DFC8BAD0004BB01 /* GSXibElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSXibElement.m; path = Source/GSXibElement.m; sourceTree = SOURCE_ROOT; };
+		877D2CAD1DFC8BAD0004BB01 /* GSXibLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSXibLoader.m; path = Source/GSXibLoader.m; sourceTree = SOURCE_ROOT; };
+		877D2CAE1DFC8BAD0004BB01 /* GSXibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSXibLoading.m; path = Source/GSXibLoading.m; sourceTree = SOURCE_ROOT; };
+		877D2CAF1DFC8BAD0004BB01 /* GSXibObjectContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSXibObjectContainer.m; path = Source/GSXibObjectContainer.m; sourceTree = SOURCE_ROOT; };
+		877D2CB01DFC8BAD0004BB01 /* GSXibParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSXibParser.m; path = Source/GSXibParser.m; sourceTree = SOURCE_ROOT; };
+		877D2CB11DFC8BAD0004BB01 /* libgnustep-gui.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "libgnustep-gui.def"; path = "Source/libgnustep-gui.def"; sourceTree = SOURCE_ROOT; };
+		877D2CB21DFC8BAD0004BB01 /* linking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = linking.m; path = Source/linking.m; sourceTree = SOURCE_ROOT; };
+		877D2CB31DFC8BAD0004BB01 /* NSActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSActionCell.m; path = Source/NSActionCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CB41DFC8BAD0004BB01 /* NSAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSAffineTransform.m; path = Source/NSAffineTransform.m; sourceTree = SOURCE_ROOT; };
+		877D2CB51DFC8BAD0004BB01 /* NSAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSAlert.m; path = Source/NSAlert.m; sourceTree = SOURCE_ROOT; };
+		877D2CB61DFC8BAD0004BB01 /* NSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSAnimation.m; path = Source/NSAnimation.m; sourceTree = SOURCE_ROOT; };
+		877D2CB71DFC8BAD0004BB01 /* NSAnimationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSAnimationContext.m; path = Source/NSAnimationContext.m; sourceTree = SOURCE_ROOT; };
+		877D2CB81DFC8BAD0004BB01 /* NSApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSApplication.m; path = Source/NSApplication.m; sourceTree = SOURCE_ROOT; };
+		877D2CB91DFC8BAD0004BB01 /* NSArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArrayController.m; path = Source/NSArrayController.m; sourceTree = SOURCE_ROOT; };
+		877D2CBA1DFC8BAD0004BB01 /* NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSAttributedString.m; path = Source/NSAttributedString.m; sourceTree = SOURCE_ROOT; };
+		877D2CBB1DFC8BAD0004BB01 /* NSBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBezierPath.m; path = Source/NSBezierPath.m; sourceTree = SOURCE_ROOT; };
+		877D2CBC1DFC8BAD0004BB01 /* NSBitmapImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBitmapImageRep.m; path = Source/NSBitmapImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2CBD1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBitmapImageRep+GIF.h"; path = "Source/NSBitmapImageRep+GIF.h"; sourceTree = SOURCE_ROOT; };
+		877D2CBE1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBitmapImageRep+GIF.m"; path = "Source/NSBitmapImageRep+GIF.m"; sourceTree = SOURCE_ROOT; };
+		877D2CBF1DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBitmapImageRep+ICNS.h"; path = "Source/NSBitmapImageRep+ICNS.h"; sourceTree = SOURCE_ROOT; };
+		877D2CC01DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBitmapImageRep+ICNS.m"; path = "Source/NSBitmapImageRep+ICNS.m"; sourceTree = SOURCE_ROOT; };
+		877D2CC11DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBitmapImageRep+JPEG.h"; path = "Source/NSBitmapImageRep+JPEG.h"; sourceTree = SOURCE_ROOT; };
+		877D2CC21DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBitmapImageRep+JPEG.m"; path = "Source/NSBitmapImageRep+JPEG.m"; sourceTree = SOURCE_ROOT; };
+		877D2CC31DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBitmapImageRep+PNG.h"; path = "Source/NSBitmapImageRep+PNG.h"; sourceTree = SOURCE_ROOT; };
+		877D2CC41DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBitmapImageRep+PNG.m"; path = "Source/NSBitmapImageRep+PNG.m"; sourceTree = SOURCE_ROOT; };
+		877D2CC51DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBitmapImageRep+PNM.h"; path = "Source/NSBitmapImageRep+PNM.h"; sourceTree = SOURCE_ROOT; };
+		877D2CC61DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBitmapImageRep+PNM.m"; path = "Source/NSBitmapImageRep+PNM.m"; sourceTree = SOURCE_ROOT; };
+		877D2CC71DFC8BAD0004BB01 /* NSBitmapImageRepPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSBitmapImageRepPrivate.h; path = Source/NSBitmapImageRepPrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2CC81DFC8BAD0004BB01 /* NSBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBox.m; path = Source/NSBox.m; sourceTree = SOURCE_ROOT; };
+		877D2CC91DFC8BAD0004BB01 /* NSBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBrowser.m; path = Source/NSBrowser.m; sourceTree = SOURCE_ROOT; };
+		877D2CCA1DFC8BAD0004BB01 /* NSBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBrowserCell.m; path = Source/NSBrowserCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CCB1DFC8BAD0004BB01 /* NSBundleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBundleAdditions.m; path = Source/NSBundleAdditions.m; sourceTree = SOURCE_ROOT; };
+		877D2CCC1DFC8BAD0004BB01 /* NSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSButton.m; path = Source/NSButton.m; sourceTree = SOURCE_ROOT; };
+		877D2CCD1DFC8BAD0004BB01 /* NSButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSButtonCell.m; path = Source/NSButtonCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CCE1DFC8BAD0004BB01 /* NSButtonImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSButtonImageSource.h; path = Source/NSButtonImageSource.h; sourceTree = SOURCE_ROOT; };
+		877D2CCF1DFC8BAD0004BB01 /* NSButtonImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSButtonImageSource.m; path = Source/NSButtonImageSource.m; sourceTree = SOURCE_ROOT; };
+		877D2CD01DFC8BAD0004BB01 /* NSCachedImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCachedImageRep.m; path = Source/NSCachedImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2CD11DFC8BAD0004BB01 /* NSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCell.m; path = Source/NSCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CD21DFC8BAD0004BB01 /* NSClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSClipView.m; path = Source/NSClipView.m; sourceTree = SOURCE_ROOT; };
+		877D2CD31DFC8BAD0004BB01 /* NSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCollectionView.m; path = Source/NSCollectionView.m; sourceTree = SOURCE_ROOT; };
+		877D2CD41DFC8BAD0004BB01 /* NSCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCollectionViewItem.m; path = Source/NSCollectionViewItem.m; sourceTree = SOURCE_ROOT; };
+		877D2CD51DFC8BAD0004BB01 /* NSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColor.m; path = Source/NSColor.m; sourceTree = SOURCE_ROOT; };
+		877D2CD61DFC8BAD0004BB01 /* NSColorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorList.m; path = Source/NSColorList.m; sourceTree = SOURCE_ROOT; };
+		877D2CD71DFC8BAD0004BB01 /* NSColorPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorPanel.m; path = Source/NSColorPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2CD81DFC8BAD0004BB01 /* NSColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorPicker.m; path = Source/NSColorPicker.m; sourceTree = SOURCE_ROOT; };
+		877D2CD91DFC8BAD0004BB01 /* NSColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorSpace.m; path = Source/NSColorSpace.m; sourceTree = SOURCE_ROOT; };
+		877D2CDA1DFC8BAD0004BB01 /* NSColorWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSColorWell.m; path = Source/NSColorWell.m; sourceTree = SOURCE_ROOT; };
+		877D2CDB1DFC8BAD0004BB01 /* NSComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSComboBox.m; path = Source/NSComboBox.m; sourceTree = SOURCE_ROOT; };
+		877D2CDC1DFC8BAD0004BB01 /* NSComboBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSComboBoxCell.m; path = Source/NSComboBoxCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CDD1DFC8BAD0004BB01 /* NSControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSControl.m; path = Source/NSControl.m; sourceTree = SOURCE_ROOT; };
+		877D2CDE1DFC8BAD0004BB01 /* NSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSController.m; path = Source/NSController.m; sourceTree = SOURCE_ROOT; };
+		877D2CDF1DFC8BAD0004BB01 /* NSCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCursor.m; path = Source/NSCursor.m; sourceTree = SOURCE_ROOT; };
+		877D2CE01DFC8BAE0004BB01 /* NSCustomImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCustomImageRep.m; path = Source/NSCustomImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2CE11DFC8BAE0004BB01 /* NSDataLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataLink.m; path = Source/NSDataLink.m; sourceTree = SOURCE_ROOT; };
+		877D2CE21DFC8BAE0004BB01 /* NSDataLinkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataLinkManager.m; path = Source/NSDataLinkManager.m; sourceTree = SOURCE_ROOT; };
+		877D2CE31DFC8BAE0004BB01 /* NSDataLinkPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataLinkPanel.m; path = Source/NSDataLinkPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2CE41DFC8BAE0004BB01 /* NSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDocument.m; path = Source/NSDocument.m; sourceTree = SOURCE_ROOT; };
+		877D2CE51DFC8BAE0004BB01 /* NSDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDocumentController.m; path = Source/NSDocumentController.m; sourceTree = SOURCE_ROOT; };
+		877D2CE61DFC8BAE0004BB01 /* NSDocumentFrameworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDocumentFrameworkPrivate.h; path = Source/NSDocumentFrameworkPrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2CE71DFC8BAE0004BB01 /* NSDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDrawer.m; path = Source/NSDrawer.m; sourceTree = SOURCE_ROOT; };
+		877D2CE81DFC8BAE0004BB01 /* NSEPSImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSEPSImageRep.m; path = Source/NSEPSImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2CE91DFC8BAE0004BB01 /* NSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSEvent.m; path = Source/NSEvent.m; sourceTree = SOURCE_ROOT; };
+		877D2CEA1DFC8BAE0004BB01 /* NSFileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFileWrapper.m; path = Source/NSFileWrapper.m; sourceTree = SOURCE_ROOT; };
+		877D2CEB1DFC8BAE0004BB01 /* NSFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFont.m; path = Source/NSFont.m; sourceTree = SOURCE_ROOT; };
+		877D2CEC1DFC8BAE0004BB01 /* NSFontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFontDescriptor.m; path = Source/NSFontDescriptor.m; sourceTree = SOURCE_ROOT; };
+		877D2CED1DFC8BAE0004BB01 /* NSFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFontManager.m; path = Source/NSFontManager.m; sourceTree = SOURCE_ROOT; };
+		877D2CEE1DFC8BAE0004BB01 /* NSFontPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFontPanel.m; path = Source/NSFontPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2CEF1DFC8BAE0004BB01 /* NSForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSForm.m; path = Source/NSForm.m; sourceTree = SOURCE_ROOT; };
+		877D2CF01DFC8BAE0004BB01 /* NSFormCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSFormCell.m; path = Source/NSFormCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CF11DFC8BAE0004BB01 /* NSGlyphGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSGlyphGenerator.m; path = Source/NSGlyphGenerator.m; sourceTree = SOURCE_ROOT; };
+		877D2CF21DFC8BAE0004BB01 /* NSGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSGradient.m; path = Source/NSGradient.m; sourceTree = SOURCE_ROOT; };
+		877D2CF31DFC8BAE0004BB01 /* NSGraphicsContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSGraphicsContext.m; path = Source/NSGraphicsContext.m; sourceTree = SOURCE_ROOT; };
+		877D2CF41DFC8BAE0004BB01 /* NSHelpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSHelpManager.m; path = Source/NSHelpManager.m; sourceTree = SOURCE_ROOT; };
+		877D2CF51DFC8BAE0004BB01 /* NSHelpPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSHelpPanel.m; path = Source/NSHelpPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2CF61DFC8BAE0004BB01 /* nsimage-tiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "nsimage-tiff.h"; path = "Source/nsimage-tiff.h"; sourceTree = SOURCE_ROOT; };
+		877D2CF71DFC8BAE0004BB01 /* NSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSImage.m; path = Source/NSImage.m; sourceTree = SOURCE_ROOT; };
+		877D2CF81DFC8BAE0004BB01 /* NSImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSImageCell.m; path = Source/NSImageCell.m; sourceTree = SOURCE_ROOT; };
+		877D2CF91DFC8BAE0004BB01 /* NSImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSImageRep.m; path = Source/NSImageRep.m; sourceTree = SOURCE_ROOT; };
+		877D2CFA1DFC8BAE0004BB01 /* NSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSImageView.m; path = Source/NSImageView.m; sourceTree = SOURCE_ROOT; };
+		877D2CFB1DFC8BAE0004BB01 /* NSInputManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInputManager.m; path = Source/NSInputManager.m; sourceTree = SOURCE_ROOT; };
+		877D2CFC1DFC8BAE0004BB01 /* NSInputServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInputServer.m; path = Source/NSInputServer.m; sourceTree = SOURCE_ROOT; };
+		877D2CFD1DFC8BAE0004BB01 /* NSInterfaceStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSInterfaceStyle.m; path = Source/NSInterfaceStyle.m; sourceTree = SOURCE_ROOT; };
+		877D2CFE1DFC8BAE0004BB01 /* NSKeyValueBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSKeyValueBinding.m; path = Source/NSKeyValueBinding.m; sourceTree = SOURCE_ROOT; };
+		877D2CFF1DFC8BAE0004BB01 /* NSLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLayoutManager.m; path = Source/NSLayoutManager.m; sourceTree = SOURCE_ROOT; };
+		877D2D001DFC8BAE0004BB01 /* NSLevelIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLevelIndicator.m; path = Source/NSLevelIndicator.m; sourceTree = SOURCE_ROOT; };
+		877D2D011DFC8BAE0004BB01 /* NSLevelIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLevelIndicatorCell.m; path = Source/NSLevelIndicatorCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D021DFC8BAE0004BB01 /* NSMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMatrix.m; path = Source/NSMatrix.m; sourceTree = SOURCE_ROOT; };
+		877D2D031DFC8BAE0004BB01 /* NSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMenu.m; path = Source/NSMenu.m; sourceTree = SOURCE_ROOT; };
+		877D2D041DFC8BAE0004BB01 /* NSMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMenuItem.m; path = Source/NSMenuItem.m; sourceTree = SOURCE_ROOT; };
+		877D2D051DFC8BAE0004BB01 /* NSMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMenuItemCell.m; path = Source/NSMenuItemCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D061DFC8BAE0004BB01 /* NSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMenuView.m; path = Source/NSMenuView.m; sourceTree = SOURCE_ROOT; };
+		877D2D071DFC8BAE0004BB01 /* NSMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMovie.m; path = Source/NSMovie.m; sourceTree = SOURCE_ROOT; };
+		877D2D081DFC8BAE0004BB01 /* NSMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMovieView.m; path = Source/NSMovieView.m; sourceTree = SOURCE_ROOT; };
+		877D2D091DFC8BAE0004BB01 /* NSNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNib.m; path = Source/NSNib.m; sourceTree = SOURCE_ROOT; };
+		877D2D0A1DFC8BAE0004BB01 /* NSNibAXAttributeConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNibAXAttributeConnector.m; path = Source/NSNibAXAttributeConnector.m; sourceTree = SOURCE_ROOT; };
+		877D2D0B1DFC8BAE0004BB01 /* NSNibAXRelationshipConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNibAXRelationshipConnector.m; path = Source/NSNibAXRelationshipConnector.m; sourceTree = SOURCE_ROOT; };
+		877D2D0C1DFC8BAE0004BB01 /* NSNibBindingConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNibBindingConnector.m; path = Source/NSNibBindingConnector.m; sourceTree = SOURCE_ROOT; };
+		877D2D0D1DFC8BAE0004BB01 /* NSNibConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSNibConnector.m; path = Source/NSNibConnector.m; sourceTree = SOURCE_ROOT; };
+		877D2D0E1DFC8BAE0004BB01 /* NSObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObjectController.m; path = Source/NSObjectController.m; sourceTree = SOURCE_ROOT; };
+		877D2D0F1DFC8BAE0004BB01 /* NSOpenGLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOpenGLContext.m; path = Source/NSOpenGLContext.m; sourceTree = SOURCE_ROOT; };
+		877D2D101DFC8BAE0004BB01 /* NSOpenGLPixelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOpenGLPixelFormat.m; path = Source/NSOpenGLPixelFormat.m; sourceTree = SOURCE_ROOT; };
+		877D2D111DFC8BAE0004BB01 /* NSOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOpenGLView.m; path = Source/NSOpenGLView.m; sourceTree = SOURCE_ROOT; };
+		877D2D121DFC8BAE0004BB01 /* NSOpenPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOpenPanel.m; path = Source/NSOpenPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2D131DFC8BAE0004BB01 /* NSOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineView.m; path = Source/NSOutlineView.m; sourceTree = SOURCE_ROOT; };
+		877D2D141DFC8BAE0004BB01 /* NSPageLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPageLayout.m; path = Source/NSPageLayout.m; sourceTree = SOURCE_ROOT; };
+		877D2D151DFC8BAE0004BB01 /* NSPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPanel.m; path = Source/NSPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2D161DFC8BAE0004BB01 /* NSParagraphStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSParagraphStyle.m; path = Source/NSParagraphStyle.m; sourceTree = SOURCE_ROOT; };
+		877D2D171DFC8BAE0004BB01 /* NSPasteboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPasteboard.m; path = Source/NSPasteboard.m; sourceTree = SOURCE_ROOT; };
+		877D2D181DFC8BAE0004BB01 /* NSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPopover.m; path = Source/NSPopover.m; sourceTree = SOURCE_ROOT; };
+		877D2D191DFC8BAE0004BB01 /* NSPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPopUpButton.m; path = Source/NSPopUpButton.m; sourceTree = SOURCE_ROOT; };
+		877D2D1A1DFC8BAE0004BB01 /* NSPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPopUpButtonCell.m; path = Source/NSPopUpButtonCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D1B1DFC8BAE0004BB01 /* NSPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPrinter.m; path = Source/NSPrinter.m; sourceTree = SOURCE_ROOT; };
+		877D2D1C1DFC8BAE0004BB01 /* NSPrintInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPrintInfo.m; path = Source/NSPrintInfo.m; sourceTree = SOURCE_ROOT; };
+		877D2D1D1DFC8BAE0004BB01 /* NSPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPrintOperation.m; path = Source/NSPrintOperation.m; sourceTree = SOURCE_ROOT; };
+		877D2D1E1DFC8BAE0004BB01 /* NSPrintPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSPrintPanel.m; path = Source/NSPrintPanel.m; sourceTree = SOURCE_ROOT; };
+		877D2D1F1DFC8BAE0004BB01 /* NSProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSProgressIndicator.m; path = Source/NSProgressIndicator.m; sourceTree = SOURCE_ROOT; };
+		877D2D201DFC8BAE0004BB01 /* NSResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSResponder.m; path = Source/NSResponder.m; sourceTree = SOURCE_ROOT; };
+		877D2D211DFC8BAE0004BB01 /* NSRulerMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRulerMarker.m; path = Source/NSRulerMarker.m; sourceTree = SOURCE_ROOT; };
+		877D2D221DFC8BAE0004BB01 /* NSRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSRulerView.m; path = Source/NSRulerView.m; sourceTree = SOURCE_ROOT; };
+		877D2D231DFC8BAE0004BB01 /* NSSavePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSavePanel.m; path = Source/NSSavePanel.m; sourceTree = SOURCE_ROOT; };
+		877D2D241DFC8BAE0004BB01 /* NSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSScreen.m; path = Source/NSScreen.m; sourceTree = SOURCE_ROOT; };
+		877D2D251DFC8BAE0004BB01 /* NSScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSScroller.m; path = Source/NSScroller.m; sourceTree = SOURCE_ROOT; };
+		877D2D261DFC8BAE0004BB01 /* NSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSScrollView.m; path = Source/NSScrollView.m; sourceTree = SOURCE_ROOT; };
+		877D2D271DFC8BAE0004BB01 /* NSSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSearchField.m; path = Source/NSSearchField.m; sourceTree = SOURCE_ROOT; };
+		877D2D281DFC8BAE0004BB01 /* NSSearchFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSearchFieldCell.m; path = Source/NSSearchFieldCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D291DFC8BAE0004BB01 /* NSSecureTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSecureTextField.m; path = Source/NSSecureTextField.m; sourceTree = SOURCE_ROOT; };
+		877D2D2A1DFC8BAE0004BB01 /* NSSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSegmentedCell.m; path = Source/NSSegmentedCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D2B1DFC8BAE0004BB01 /* NSSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSegmentedControl.m; path = Source/NSSegmentedControl.m; sourceTree = SOURCE_ROOT; };
+		877D2D2C1DFC8BAE0004BB01 /* NSSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSelection.m; path = Source/NSSelection.m; sourceTree = SOURCE_ROOT; };
+		877D2D2D1DFC8BAE0004BB01 /* NSShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSShadow.m; path = Source/NSShadow.m; sourceTree = SOURCE_ROOT; };
+		877D2D2E1DFC8BAE0004BB01 /* NSSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSlider.m; path = Source/NSSlider.m; sourceTree = SOURCE_ROOT; };
+		877D2D2F1DFC8BAE0004BB01 /* NSSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSliderCell.m; path = Source/NSSliderCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D301DFC8BAE0004BB01 /* NSSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSound.m; path = Source/NSSound.m; sourceTree = SOURCE_ROOT; };
+		877D2D311DFC8BAE0004BB01 /* NSSpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSpeechSynthesizer.m; path = Source/NSSpeechSynthesizer.m; sourceTree = SOURCE_ROOT; };
+		877D2D321DFC8BAE0004BB01 /* NSSpellChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSpellChecker.m; path = Source/NSSpellChecker.m; sourceTree = SOURCE_ROOT; };
+		877D2D331DFC8BAE0004BB01 /* NSSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSSplitView.m; path = Source/NSSplitView.m; sourceTree = SOURCE_ROOT; };
+		877D2D341DFC8BAE0004BB01 /* NSStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStatusBar.m; path = Source/NSStatusBar.m; sourceTree = SOURCE_ROOT; };
+		877D2D351DFC8BAE0004BB01 /* NSStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStatusItem.m; path = Source/NSStatusItem.m; sourceTree = SOURCE_ROOT; };
+		877D2D361DFC8BAE0004BB01 /* NSStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStepper.m; path = Source/NSStepper.m; sourceTree = SOURCE_ROOT; };
+		877D2D371DFC8BAE0004BB01 /* NSStepperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStepperCell.m; path = Source/NSStepperCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D381DFC8BAE0004BB01 /* NSStringDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringDrawing.m; path = Source/NSStringDrawing.m; sourceTree = SOURCE_ROOT; };
+		877D2D391DFC8BAE0004BB01 /* NSTableColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTableColumn.m; path = Source/NSTableColumn.m; sourceTree = SOURCE_ROOT; };
+		877D2D3A1DFC8BAE0004BB01 /* NSTableHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTableHeaderCell.m; path = Source/NSTableHeaderCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D3B1DFC8BAE0004BB01 /* NSTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTableHeaderView.m; path = Source/NSTableHeaderView.m; sourceTree = SOURCE_ROOT; };
+		877D2D3C1DFC8BAE0004BB01 /* NSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTableView.m; path = Source/NSTableView.m; sourceTree = SOURCE_ROOT; };
+		877D2D3D1DFC8BAE0004BB01 /* NSTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTabView.m; path = Source/NSTabView.m; sourceTree = SOURCE_ROOT; };
+		877D2D3E1DFC8BAE0004BB01 /* NSTabViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTabViewItem.m; path = Source/NSTabViewItem.m; sourceTree = SOURCE_ROOT; };
+		877D2D3F1DFC8BAE0004BB01 /* NSText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSText.m; path = Source/NSText.m; sourceTree = SOURCE_ROOT; };
+		877D2D401DFC8BAE0004BB01 /* NSTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextAttachment.m; path = Source/NSTextAttachment.m; sourceTree = SOURCE_ROOT; };
+		877D2D411DFC8BAE0004BB01 /* NSTextBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextBlock.m; path = Source/NSTextBlock.m; sourceTree = SOURCE_ROOT; };
+		877D2D421DFC8BAE0004BB01 /* NSTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextContainer.m; path = Source/NSTextContainer.m; sourceTree = SOURCE_ROOT; };
+		877D2D431DFC8BAE0004BB01 /* NSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextField.m; path = Source/NSTextField.m; sourceTree = SOURCE_ROOT; };
+		877D2D441DFC8BAE0004BB01 /* NSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextFieldCell.m; path = Source/NSTextFieldCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D451DFC8BAE0004BB01 /* NSTextList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextList.m; path = Source/NSTextList.m; sourceTree = SOURCE_ROOT; };
+		877D2D461DFC8BAE0004BB01 /* NSTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextStorage.m; path = Source/NSTextStorage.m; sourceTree = SOURCE_ROOT; };
+		877D2D471DFC8BAE0004BB01 /* NSTextTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextTable.m; path = Source/NSTextTable.m; sourceTree = SOURCE_ROOT; };
+		877D2D481DFC8BAE0004BB01 /* NSTextTableBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextTableBlock.m; path = Source/NSTextTableBlock.m; sourceTree = SOURCE_ROOT; };
+		877D2D491DFC8BAE0004BB01 /* NSTextView_actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextView_actions.m; path = Source/NSTextView_actions.m; sourceTree = SOURCE_ROOT; };
+		877D2D4A1DFC8BAE0004BB01 /* NSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextView.m; path = Source/NSTextView.m; sourceTree = SOURCE_ROOT; };
+		877D2D4B1DFC8BAE0004BB01 /* NSTokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTokenField.m; path = Source/NSTokenField.m; sourceTree = SOURCE_ROOT; };
+		877D2D4C1DFC8BAE0004BB01 /* NSTokenFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTokenFieldCell.m; path = Source/NSTokenFieldCell.m; sourceTree = SOURCE_ROOT; };
+		877D2D4D1DFC8BAE0004BB01 /* NSToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSToolbar.m; path = Source/NSToolbar.m; sourceTree = SOURCE_ROOT; };
+		877D2D4E1DFC8BAE0004BB01 /* NSToolbarFrameworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSToolbarFrameworkPrivate.h; path = Source/NSToolbarFrameworkPrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2D4F1DFC8BAE0004BB01 /* NSToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSToolbarItem.m; path = Source/NSToolbarItem.m; sourceTree = SOURCE_ROOT; };
+		877D2D501DFC8BAE0004BB01 /* NSToolbarItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSToolbarItemGroup.m; path = Source/NSToolbarItemGroup.m; sourceTree = SOURCE_ROOT; };
+		877D2D511DFC8BAE0004BB01 /* NSTrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTrackingArea.m; path = Source/NSTrackingArea.m; sourceTree = SOURCE_ROOT; };
+		877D2D521DFC8BAE0004BB01 /* NSTreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTreeController.m; path = Source/NSTreeController.m; sourceTree = SOURCE_ROOT; };
+		877D2D531DFC8BAE0004BB01 /* NSTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTreeNode.m; path = Source/NSTreeNode.m; sourceTree = SOURCE_ROOT; };
+		877D2D541DFC8BAE0004BB01 /* NSUserDefaultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSUserDefaultsController.m; path = Source/NSUserDefaultsController.m; sourceTree = SOURCE_ROOT; };
+		877D2D551DFC8BAE0004BB01 /* NSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSView.m; path = Source/NSView.m; sourceTree = SOURCE_ROOT; };
+		877D2D561DFC8BAE0004BB01 /* NSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSViewController.m; path = Source/NSViewController.m; sourceTree = SOURCE_ROOT; };
+		877D2D571DFC8BAE0004BB01 /* NSViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSViewPrivate.h; path = Source/NSViewPrivate.h; sourceTree = SOURCE_ROOT; };
+		877D2D581DFC8BAE0004BB01 /* NSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSWindow.m; path = Source/NSWindow.m; sourceTree = SOURCE_ROOT; };
+		877D2D591DFC8BAE0004BB01 /* NSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSWindowController.m; path = Source/NSWindowController.m; sourceTree = SOURCE_ROOT; };
+		877D2D5A1DFC8BAE0004BB01 /* NSWorkspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSWorkspace.m; path = Source/NSWorkspace.m; sourceTree = SOURCE_ROOT; };
+		877D2D5B1DFC8BAE0004BB01 /* tiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tiff.m; path = Source/tiff.m; sourceTree = SOURCE_ROOT; };
+		877D2D5C1DFC8BAE0004BB01 /* win32-entry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "win32-entry.c"; path = "Source/win32-entry.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877D2C5B1DFC8B5D0004BB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877D2C551DFC8B5D0004BB01 = {
+			isa = PBXGroup;
+			children = (
+				877D2C611DFC8B5E0004BB01 /* GNUstep-gui */,
+				877D2C601DFC8B5E0004BB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877D2C601DFC8B5E0004BB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877D2C5F1DFC8B5E0004BB01 /* GNUstepGUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877D2C611DFC8B5E0004BB01 /* GNUstep-gui */ = {
+			isa = PBXGroup;
+			children = (
+				877D2C621DFC8B5E0004BB01 /* GNUstepGUI.h */,
+				877D2C6A1DFC8BAD0004BB01 /* externs.m */,
+				877D2C6B1DFC8BAD0004BB01 /* Functions.m */,
+				877D2C6C1DFC8BAD0004BB01 /* GSAnimator.m */,
+				877D2C6D1DFC8BAD0004BB01 /* GSAutocompleteWindow.h */,
+				877D2C6E1DFC8BAD0004BB01 /* GSAutocompleteWindow.m */,
+				877D2C6F1DFC8BAD0004BB01 /* GSBindingHelpers.h */,
+				877D2C701DFC8BAD0004BB01 /* GSCharacterPanel.m */,
+				877D2C711DFC8BAD0004BB01 /* GSDisplayServer.m */,
+				877D2C721DFC8BAD0004BB01 /* GSDragView.m */,
+				877D2C731DFC8BAD0004BB01 /* GSEPSPrintOperation.m */,
+				877D2C741DFC8BAD0004BB01 /* GSFastEnumeration.h */,
+				877D2C751DFC8BAD0004BB01 /* GSFontInfo.m */,
+				877D2C761DFC8BAD0004BB01 /* GSGhostscriptImageRep.m */,
+				877D2C771DFC8BAD0004BB01 /* GSGModelLoader.m */,
+				877D2C781DFC8BAD0004BB01 /* GSGormLoader.m */,
+				877D2C791DFC8BAD0004BB01 /* GSGormLoading.m */,
+				877D2C7A1DFC8BAD0004BB01 /* GSGuiPrivate.h */,
+				877D2C7B1DFC8BAD0004BB01 /* GSHbox.m */,
+				877D2C7C1DFC8BAD0004BB01 /* GSHelpAttachment.m */,
+				877D2C7D1DFC8BAD0004BB01 /* GSHelpManagerPanel.m */,
+				877D2C7E1DFC8BAD0004BB01 /* GSHorizontalTypesetter.m */,
+				877D2C7F1DFC8BAD0004BB01 /* GSIconManager.h */,
+				877D2C801DFC8BAD0004BB01 /* GSIconManager.m */,
+				877D2C811DFC8BAD0004BB01 /* GSImageMagickImageRep.m */,
+				877D2C821DFC8BAD0004BB01 /* GSInfoPanel.m */,
+				877D2C831DFC8BAD0004BB01 /* GSKeyBindingAction.h */,
+				877D2C841DFC8BAD0004BB01 /* GSKeyBindingAction.m */,
+				877D2C851DFC8BAD0004BB01 /* GSKeyBindingTable.h */,
+				877D2C861DFC8BAD0004BB01 /* GSKeyBindingTable.m */,
+				877D2C871DFC8BAD0004BB01 /* GSLayoutManager.m */,
+				877D2C881DFC8BAD0004BB01 /* GSMemoryPanel.m */,
+				877D2C891DFC8BAD0004BB01 /* GSModelLoaderFactory.m */,
+				877D2C8A1DFC8BAD0004BB01 /* GSNibLoader.m */,
+				877D2C8B1DFC8BAD0004BB01 /* GSNibLoading.m */,
+				877D2C8C1DFC8BAD0004BB01 /* GSPDFPrintOperation.m */,
+				877D2C8D1DFC8BAD0004BB01 /* GSPrinting.m */,
+				877D2C8E1DFC8BAD0004BB01 /* GSPrintOperation.m */,
+				877D2C8F1DFC8BAD0004BB01 /* GSServicesManager.m */,
+				877D2C901DFC8BAD0004BB01 /* GSSlideView.h */,
+				877D2C911DFC8BAD0004BB01 /* GSSlideView.m */,
+				877D2C921DFC8BAD0004BB01 /* GSStandardWindowDecorationView.m */,
+				877D2C931DFC8BAD0004BB01 /* GSTable.m */,
+				877D2C941DFC8BAD0004BB01 /* GSTextFinder.h */,
+				877D2C951DFC8BAD0004BB01 /* GSTextFinder.m */,
+				877D2C961DFC8BAD0004BB01 /* GSTextStorage.h */,
+				877D2C971DFC8BAD0004BB01 /* GSTextStorage.m */,
+				877D2C981DFC8BAD0004BB01 /* GSTheme.m */,
+				877D2C991DFC8BAD0004BB01 /* GSThemeDrawing.m */,
+				877D2C9A1DFC8BAD0004BB01 /* GSThemeInspector.m */,
+				877D2C9B1DFC8BAD0004BB01 /* GSThemeMenu.m */,
+				877D2C9C1DFC8BAD0004BB01 /* GSThemeOpenSavePanels.m */,
+				877D2C9D1DFC8BAD0004BB01 /* GSThemePanel.m */,
+				877D2C9E1DFC8BAD0004BB01 /* GSThemePrintPanels.m */,
+				877D2C9F1DFC8BAD0004BB01 /* GSThemePrivate.h */,
+				877D2CA01DFC8BAD0004BB01 /* GSThemeTools.m */,
+				877D2CA11DFC8BAD0004BB01 /* GSThemeWindow.m */,
+				877D2CA21DFC8BAD0004BB01 /* GSTitleView.m */,
+				877D2CA31DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.h */,
+				877D2CA41DFC8BAD0004BB01 /* GSToolbarCustomizationPalette.m */,
+				877D2CA51DFC8BAD0004BB01 /* GSToolbarView.m */,
+				877D2CA61DFC8BAD0004BB01 /* GSToolTips.h */,
+				877D2CA71DFC8BAD0004BB01 /* GSToolTips.m */,
+				877D2CA81DFC8BAD0004BB01 /* GSTrackingRect.m */,
+				877D2CA91DFC8BAD0004BB01 /* GSTypesetter.m */,
+				877D2CAA1DFC8BAD0004BB01 /* GSVbox.m */,
+				877D2CAB1DFC8BAD0004BB01 /* GSWindowDecorationView.m */,
+				877D2CAC1DFC8BAD0004BB01 /* GSXibElement.m */,
+				877D2CAD1DFC8BAD0004BB01 /* GSXibLoader.m */,
+				877D2CAE1DFC8BAD0004BB01 /* GSXibLoading.m */,
+				877D2CAF1DFC8BAD0004BB01 /* GSXibObjectContainer.m */,
+				877D2CB01DFC8BAD0004BB01 /* GSXibParser.m */,
+				877D2CB11DFC8BAD0004BB01 /* libgnustep-gui.def */,
+				877D2CB21DFC8BAD0004BB01 /* linking.m */,
+				877D2CB31DFC8BAD0004BB01 /* NSActionCell.m */,
+				877D2CB41DFC8BAD0004BB01 /* NSAffineTransform.m */,
+				877D2CB51DFC8BAD0004BB01 /* NSAlert.m */,
+				877D2CB61DFC8BAD0004BB01 /* NSAnimation.m */,
+				877D2CB71DFC8BAD0004BB01 /* NSAnimationContext.m */,
+				877D2CB81DFC8BAD0004BB01 /* NSApplication.m */,
+				877D2CB91DFC8BAD0004BB01 /* NSArrayController.m */,
+				877D2CBA1DFC8BAD0004BB01 /* NSAttributedString.m */,
+				877D2CBB1DFC8BAD0004BB01 /* NSBezierPath.m */,
+				877D2CBC1DFC8BAD0004BB01 /* NSBitmapImageRep.m */,
+				877D2CBD1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.h */,
+				877D2CBE1DFC8BAD0004BB01 /* NSBitmapImageRep+GIF.m */,
+				877D2CBF1DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.h */,
+				877D2CC01DFC8BAD0004BB01 /* NSBitmapImageRep+ICNS.m */,
+				877D2CC11DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.h */,
+				877D2CC21DFC8BAD0004BB01 /* NSBitmapImageRep+JPEG.m */,
+				877D2CC31DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.h */,
+				877D2CC41DFC8BAD0004BB01 /* NSBitmapImageRep+PNG.m */,
+				877D2CC51DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.h */,
+				877D2CC61DFC8BAD0004BB01 /* NSBitmapImageRep+PNM.m */,
+				877D2CC71DFC8BAD0004BB01 /* NSBitmapImageRepPrivate.h */,
+				877D2CC81DFC8BAD0004BB01 /* NSBox.m */,
+				877D2CC91DFC8BAD0004BB01 /* NSBrowser.m */,
+				877D2CCA1DFC8BAD0004BB01 /* NSBrowserCell.m */,
+				877D2CCB1DFC8BAD0004BB01 /* NSBundleAdditions.m */,
+				877D2CCC1DFC8BAD0004BB01 /* NSButton.m */,
+				877D2CCD1DFC8BAD0004BB01 /* NSButtonCell.m */,
+				877D2CCE1DFC8BAD0004BB01 /* NSButtonImageSource.h */,
+				877D2CCF1DFC8BAD0004BB01 /* NSButtonImageSource.m */,
+				877D2CD01DFC8BAD0004BB01 /* NSCachedImageRep.m */,
+				877D2CD11DFC8BAD0004BB01 /* NSCell.m */,
+				877D2CD21DFC8BAD0004BB01 /* NSClipView.m */,
+				877D2CD31DFC8BAD0004BB01 /* NSCollectionView.m */,
+				877D2CD41DFC8BAD0004BB01 /* NSCollectionViewItem.m */,
+				877D2CD51DFC8BAD0004BB01 /* NSColor.m */,
+				877D2CD61DFC8BAD0004BB01 /* NSColorList.m */,
+				877D2CD71DFC8BAD0004BB01 /* NSColorPanel.m */,
+				877D2CD81DFC8BAD0004BB01 /* NSColorPicker.m */,
+				877D2CD91DFC8BAD0004BB01 /* NSColorSpace.m */,
+				877D2CDA1DFC8BAD0004BB01 /* NSColorWell.m */,
+				877D2CDB1DFC8BAD0004BB01 /* NSComboBox.m */,
+				877D2CDC1DFC8BAD0004BB01 /* NSComboBoxCell.m */,
+				877D2CDD1DFC8BAD0004BB01 /* NSControl.m */,
+				877D2CDE1DFC8BAD0004BB01 /* NSController.m */,
+				877D2CDF1DFC8BAD0004BB01 /* NSCursor.m */,
+				877D2CE01DFC8BAE0004BB01 /* NSCustomImageRep.m */,
+				877D2CE11DFC8BAE0004BB01 /* NSDataLink.m */,
+				877D2CE21DFC8BAE0004BB01 /* NSDataLinkManager.m */,
+				877D2CE31DFC8BAE0004BB01 /* NSDataLinkPanel.m */,
+				877D2CE41DFC8BAE0004BB01 /* NSDocument.m */,
+				877D2CE51DFC8BAE0004BB01 /* NSDocumentController.m */,
+				877D2CE61DFC8BAE0004BB01 /* NSDocumentFrameworkPrivate.h */,
+				877D2CE71DFC8BAE0004BB01 /* NSDrawer.m */,
+				877D2CE81DFC8BAE0004BB01 /* NSEPSImageRep.m */,
+				877D2CE91DFC8BAE0004BB01 /* NSEvent.m */,
+				877D2CEA1DFC8BAE0004BB01 /* NSFileWrapper.m */,
+				877D2CEB1DFC8BAE0004BB01 /* NSFont.m */,
+				877D2CEC1DFC8BAE0004BB01 /* NSFontDescriptor.m */,
+				877D2CED1DFC8BAE0004BB01 /* NSFontManager.m */,
+				877D2CEE1DFC8BAE0004BB01 /* NSFontPanel.m */,
+				877D2CEF1DFC8BAE0004BB01 /* NSForm.m */,
+				877D2CF01DFC8BAE0004BB01 /* NSFormCell.m */,
+				877D2CF11DFC8BAE0004BB01 /* NSGlyphGenerator.m */,
+				877D2CF21DFC8BAE0004BB01 /* NSGradient.m */,
+				877D2CF31DFC8BAE0004BB01 /* NSGraphicsContext.m */,
+				877D2CF41DFC8BAE0004BB01 /* NSHelpManager.m */,
+				877D2CF51DFC8BAE0004BB01 /* NSHelpPanel.m */,
+				877D2CF61DFC8BAE0004BB01 /* nsimage-tiff.h */,
+				877D2CF71DFC8BAE0004BB01 /* NSImage.m */,
+				877D2CF81DFC8BAE0004BB01 /* NSImageCell.m */,
+				877D2CF91DFC8BAE0004BB01 /* NSImageRep.m */,
+				877D2CFA1DFC8BAE0004BB01 /* NSImageView.m */,
+				877D2CFB1DFC8BAE0004BB01 /* NSInputManager.m */,
+				877D2CFC1DFC8BAE0004BB01 /* NSInputServer.m */,
+				877D2CFD1DFC8BAE0004BB01 /* NSInterfaceStyle.m */,
+				877D2CFE1DFC8BAE0004BB01 /* NSKeyValueBinding.m */,
+				877D2CFF1DFC8BAE0004BB01 /* NSLayoutManager.m */,
+				877D2D001DFC8BAE0004BB01 /* NSLevelIndicator.m */,
+				877D2D011DFC8BAE0004BB01 /* NSLevelIndicatorCell.m */,
+				877D2D021DFC8BAE0004BB01 /* NSMatrix.m */,
+				877D2D031DFC8BAE0004BB01 /* NSMenu.m */,
+				877D2D041DFC8BAE0004BB01 /* NSMenuItem.m */,
+				877D2D051DFC8BAE0004BB01 /* NSMenuItemCell.m */,
+				877D2D061DFC8BAE0004BB01 /* NSMenuView.m */,
+				877D2D071DFC8BAE0004BB01 /* NSMovie.m */,
+				877D2D081DFC8BAE0004BB01 /* NSMovieView.m */,
+				877D2D091DFC8BAE0004BB01 /* NSNib.m */,
+				877D2D0A1DFC8BAE0004BB01 /* NSNibAXAttributeConnector.m */,
+				877D2D0B1DFC8BAE0004BB01 /* NSNibAXRelationshipConnector.m */,
+				877D2D0C1DFC8BAE0004BB01 /* NSNibBindingConnector.m */,
+				877D2D0D1DFC8BAE0004BB01 /* NSNibConnector.m */,
+				877D2D0E1DFC8BAE0004BB01 /* NSObjectController.m */,
+				877D2D0F1DFC8BAE0004BB01 /* NSOpenGLContext.m */,
+				877D2D101DFC8BAE0004BB01 /* NSOpenGLPixelFormat.m */,
+				877D2D111DFC8BAE0004BB01 /* NSOpenGLView.m */,
+				877D2D121DFC8BAE0004BB01 /* NSOpenPanel.m */,
+				877D2D131DFC8BAE0004BB01 /* NSOutlineView.m */,
+				877D2D141DFC8BAE0004BB01 /* NSPageLayout.m */,
+				877D2D151DFC8BAE0004BB01 /* NSPanel.m */,
+				877D2D161DFC8BAE0004BB01 /* NSParagraphStyle.m */,
+				877D2D171DFC8BAE0004BB01 /* NSPasteboard.m */,
+				877D2D181DFC8BAE0004BB01 /* NSPopover.m */,
+				877D2D191DFC8BAE0004BB01 /* NSPopUpButton.m */,
+				877D2D1A1DFC8BAE0004BB01 /* NSPopUpButtonCell.m */,
+				877D2D1B1DFC8BAE0004BB01 /* NSPrinter.m */,
+				877D2D1C1DFC8BAE0004BB01 /* NSPrintInfo.m */,
+				877D2D1D1DFC8BAE0004BB01 /* NSPrintOperation.m */,
+				877D2D1E1DFC8BAE0004BB01 /* NSPrintPanel.m */,
+				877D2D1F1DFC8BAE0004BB01 /* NSProgressIndicator.m */,
+				877D2D201DFC8BAE0004BB01 /* NSResponder.m */,
+				877D2D211DFC8BAE0004BB01 /* NSRulerMarker.m */,
+				877D2D221DFC8BAE0004BB01 /* NSRulerView.m */,
+				877D2D231DFC8BAE0004BB01 /* NSSavePanel.m */,
+				877D2D241DFC8BAE0004BB01 /* NSScreen.m */,
+				877D2D251DFC8BAE0004BB01 /* NSScroller.m */,
+				877D2D261DFC8BAE0004BB01 /* NSScrollView.m */,
+				877D2D271DFC8BAE0004BB01 /* NSSearchField.m */,
+				877D2D281DFC8BAE0004BB01 /* NSSearchFieldCell.m */,
+				877D2D291DFC8BAE0004BB01 /* NSSecureTextField.m */,
+				877D2D2A1DFC8BAE0004BB01 /* NSSegmentedCell.m */,
+				877D2D2B1DFC8BAE0004BB01 /* NSSegmentedControl.m */,
+				877D2D2C1DFC8BAE0004BB01 /* NSSelection.m */,
+				877D2D2D1DFC8BAE0004BB01 /* NSShadow.m */,
+				877D2D2E1DFC8BAE0004BB01 /* NSSlider.m */,
+				877D2D2F1DFC8BAE0004BB01 /* NSSliderCell.m */,
+				877D2D301DFC8BAE0004BB01 /* NSSound.m */,
+				877D2D311DFC8BAE0004BB01 /* NSSpeechSynthesizer.m */,
+				877D2D321DFC8BAE0004BB01 /* NSSpellChecker.m */,
+				877D2D331DFC8BAE0004BB01 /* NSSplitView.m */,
+				877D2D341DFC8BAE0004BB01 /* NSStatusBar.m */,
+				877D2D351DFC8BAE0004BB01 /* NSStatusItem.m */,
+				877D2D361DFC8BAE0004BB01 /* NSStepper.m */,
+				877D2D371DFC8BAE0004BB01 /* NSStepperCell.m */,
+				877D2D381DFC8BAE0004BB01 /* NSStringDrawing.m */,
+				877D2D391DFC8BAE0004BB01 /* NSTableColumn.m */,
+				877D2D3A1DFC8BAE0004BB01 /* NSTableHeaderCell.m */,
+				877D2D3B1DFC8BAE0004BB01 /* NSTableHeaderView.m */,
+				877D2D3C1DFC8BAE0004BB01 /* NSTableView.m */,
+				877D2D3D1DFC8BAE0004BB01 /* NSTabView.m */,
+				877D2D3E1DFC8BAE0004BB01 /* NSTabViewItem.m */,
+				877D2D3F1DFC8BAE0004BB01 /* NSText.m */,
+				877D2D401DFC8BAE0004BB01 /* NSTextAttachment.m */,
+				877D2D411DFC8BAE0004BB01 /* NSTextBlock.m */,
+				877D2D421DFC8BAE0004BB01 /* NSTextContainer.m */,
+				877D2D431DFC8BAE0004BB01 /* NSTextField.m */,
+				877D2D441DFC8BAE0004BB01 /* NSTextFieldCell.m */,
+				877D2D451DFC8BAE0004BB01 /* NSTextList.m */,
+				877D2D461DFC8BAE0004BB01 /* NSTextStorage.m */,
+				877D2D471DFC8BAE0004BB01 /* NSTextTable.m */,
+				877D2D481DFC8BAE0004BB01 /* NSTextTableBlock.m */,
+				877D2D491DFC8BAE0004BB01 /* NSTextView_actions.m */,
+				877D2D4A1DFC8BAE0004BB01 /* NSTextView.m */,
+				877D2D4B1DFC8BAE0004BB01 /* NSTokenField.m */,
+				877D2D4C1DFC8BAE0004BB01 /* NSTokenFieldCell.m */,
+				877D2D4D1DFC8BAE0004BB01 /* NSToolbar.m */,
+				877D2D4E1DFC8BAE0004BB01 /* NSToolbarFrameworkPrivate.h */,
+				877D2D4F1DFC8BAE0004BB01 /* NSToolbarItem.m */,
+				877D2D501DFC8BAE0004BB01 /* NSToolbarItemGroup.m */,
+				877D2D511DFC8BAE0004BB01 /* NSTrackingArea.m */,
+				877D2D521DFC8BAE0004BB01 /* NSTreeController.m */,
+				877D2D531DFC8BAE0004BB01 /* NSTreeNode.m */,
+				877D2D541DFC8BAE0004BB01 /* NSUserDefaultsController.m */,
+				877D2D551DFC8BAE0004BB01 /* NSView.m */,
+				877D2D561DFC8BAE0004BB01 /* NSViewController.m */,
+				877D2D571DFC8BAE0004BB01 /* NSViewPrivate.h */,
+				877D2D581DFC8BAE0004BB01 /* NSWindow.m */,
+				877D2D591DFC8BAE0004BB01 /* NSWindowController.m */,
+				877D2D5A1DFC8BAE0004BB01 /* NSWorkspace.m */,
+				877D2D5B1DFC8BAE0004BB01 /* tiff.m */,
+				877D2D5C1DFC8BAE0004BB01 /* win32-entry.c */,
+				877D2C631DFC8B5E0004BB01 /* Info.plist */,
+			);
+			path = "GNUstep-gui";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		877D2C5C1DFC8B5D0004BB01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D2DB61DFC8BAE0004BB01 /* NSBitmapImageRep+PNG.h in Headers */,
+				877D2D671DFC8BAE0004BB01 /* GSFastEnumeration.h in Headers */,
+				877D2D6D1DFC8BAE0004BB01 /* GSGuiPrivate.h in Headers */,
+				877D2DB01DFC8BAE0004BB01 /* NSBitmapImageRep+GIF.h in Headers */,
+				877D2DC11DFC8BAE0004BB01 /* NSButtonImageSource.h in Headers */,
+				877D2DE91DFC8BAE0004BB01 /* nsimage-tiff.h in Headers */,
+				877D2E4A1DFC8BAE0004BB01 /* NSViewPrivate.h in Headers */,
+				877D2E411DFC8BAE0004BB01 /* NSToolbarFrameworkPrivate.h in Headers */,
+				877D2D601DFC8BAE0004BB01 /* GSAutocompleteWindow.h in Headers */,
+				877D2D891DFC8BAE0004BB01 /* GSTextStorage.h in Headers */,
+				877D2D991DFC8BAE0004BB01 /* GSToolTips.h in Headers */,
+				877D2D721DFC8BAE0004BB01 /* GSIconManager.h in Headers */,
+				877D2D831DFC8BAE0004BB01 /* GSSlideView.h in Headers */,
+				877D2D921DFC8BAE0004BB01 /* GSThemePrivate.h in Headers */,
+				877D2D761DFC8BAE0004BB01 /* GSKeyBindingAction.h in Headers */,
+				877D2DB81DFC8BAE0004BB01 /* NSBitmapImageRep+PNM.h in Headers */,
+				877D2C641DFC8B5E0004BB01 /* GNUstepGUI.h in Headers */,
+				877D2D621DFC8BAE0004BB01 /* GSBindingHelpers.h in Headers */,
+				877D2DBA1DFC8BAE0004BB01 /* NSBitmapImageRepPrivate.h in Headers */,
+				877D2D961DFC8BAE0004BB01 /* GSToolbarCustomizationPalette.h in Headers */,
+				877D2DB21DFC8BAE0004BB01 /* NSBitmapImageRep+ICNS.h in Headers */,
+				877D2D781DFC8BAE0004BB01 /* GSKeyBindingTable.h in Headers */,
+				877D2DD91DFC8BAE0004BB01 /* NSDocumentFrameworkPrivate.h in Headers */,
+				877D2D871DFC8BAE0004BB01 /* GSTextFinder.h in Headers */,
+				877D2DB41DFC8BAE0004BB01 /* NSBitmapImageRep+JPEG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		877D2C5E1DFC8B5D0004BB01 /* GNUstepGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877D2C671DFC8B5E0004BB01 /* Build configuration list for PBXNativeTarget "GNUstepGUI" */;
+			buildPhases = (
+				877D2C5A1DFC8B5D0004BB01 /* Sources */,
+				877D2C5B1DFC8B5D0004BB01 /* Frameworks */,
+				877D2C5C1DFC8B5D0004BB01 /* Headers */,
+				877D2C5D1DFC8B5D0004BB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNUstepGUI;
+			productName = "GNUstep-gui";
+			productReference = 877D2C5F1DFC8B5E0004BB01 /* GNUstepGUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877D2C561DFC8B5D0004BB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sergej Jaskiewicz";
+				TargetAttributes = {
+					877D2C5E1DFC8B5D0004BB01 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 877D2C591DFC8B5D0004BB01 /* Build configuration list for PBXProject "GNUstep-gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 877D2C551DFC8B5D0004BB01;
+			productRefGroup = 877D2C601DFC8B5E0004BB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877D2C5E1DFC8B5D0004BB01 /* GNUstepGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877D2C5D1DFC8B5D0004BB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D2DA41DFC8BAE0004BB01 /* libgnustep-gui.def in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877D2C5A1DFC8B5D0004BB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D2E4B1DFC8BAE0004BB01 /* NSWindow.m in Sources */,
+				877D2DFD1DFC8BAE0004BB01 /* NSNibAXAttributeConnector.m in Sources */,
+				877D2D7E1DFC8BAE0004BB01 /* GSNibLoading.m in Sources */,
+				877D2E281DFC8BAE0004BB01 /* NSStatusItem.m in Sources */,
+				877D2D7D1DFC8BAE0004BB01 /* GSNibLoader.m in Sources */,
+				877D2DC81DFC8BAE0004BB01 /* NSColor.m in Sources */,
+				877D2E191DFC8BAE0004BB01 /* NSScrollView.m in Sources */,
+				877D2DC71DFC8BAE0004BB01 /* NSCollectionViewItem.m in Sources */,
+				877D2E021DFC8BAE0004BB01 /* NSOpenGLContext.m in Sources */,
+				877D2D8E1DFC8BAE0004BB01 /* GSThemeMenu.m in Sources */,
+				877D2E3C1DFC8BAE0004BB01 /* NSTextView_actions.m in Sources */,
+				877D2E0D1DFC8BAE0004BB01 /* NSPopUpButtonCell.m in Sources */,
+				877D2DFA1DFC8BAE0004BB01 /* NSMovie.m in Sources */,
+				877D2E0C1DFC8BAE0004BB01 /* NSPopUpButton.m in Sources */,
+				877D2D661DFC8BAE0004BB01 /* GSEPSPrintOperation.m in Sources */,
+				877D2D6F1DFC8BAE0004BB01 /* GSHelpAttachment.m in Sources */,
+				877D2E291DFC8BAE0004BB01 /* NSStepper.m in Sources */,
+				877D2D791DFC8BAE0004BB01 /* GSKeyBindingTable.m in Sources */,
+				877D2D631DFC8BAE0004BB01 /* GSCharacterPanel.m in Sources */,
+				877D2D7C1DFC8BAE0004BB01 /* GSModelLoaderFactory.m in Sources */,
+				877D2D9B1DFC8BAE0004BB01 /* GSTrackingRect.m in Sources */,
+				877D2DBD1DFC8BAE0004BB01 /* NSBrowserCell.m in Sources */,
+				877D2DBE1DFC8BAE0004BB01 /* NSBundleAdditions.m in Sources */,
+				877D2DE61DFC8BAE0004BB01 /* NSGraphicsContext.m in Sources */,
+				877D2E3B1DFC8BAE0004BB01 /* NSTextTableBlock.m in Sources */,
+				877D2E441DFC8BAE0004BB01 /* NSTrackingArea.m in Sources */,
+				877D2D741DFC8BAE0004BB01 /* GSImageMagickImageRep.m in Sources */,
+				877D2DD11DFC8BAE0004BB01 /* NSController.m in Sources */,
+				877D2E2C1DFC8BAE0004BB01 /* NSTableColumn.m in Sources */,
+				877D2D8D1DFC8BAE0004BB01 /* GSThemeInspector.m in Sources */,
+				877D2E381DFC8BAE0004BB01 /* NSTextList.m in Sources */,
+				877D2DB51DFC8BAE0004BB01 /* NSBitmapImageRep+JPEG.m in Sources */,
+				877D2E401DFC8BAE0004BB01 /* NSToolbar.m in Sources */,
+				877D2E3A1DFC8BAE0004BB01 /* NSTextTable.m in Sources */,
+				877D2E451DFC8BAE0004BB01 /* NSTreeController.m in Sources */,
+				877D2D7B1DFC8BAE0004BB01 /* GSMemoryPanel.m in Sources */,
+				877D2D691DFC8BAE0004BB01 /* GSGhostscriptImageRep.m in Sources */,
+				877D2DAF1DFC8BAE0004BB01 /* NSBitmapImageRep.m in Sources */,
+				877D2E311DFC8BAE0004BB01 /* NSTabViewItem.m in Sources */,
+				877D2DA51DFC8BAE0004BB01 /* linking.m in Sources */,
+				877D2E131DFC8BAE0004BB01 /* NSResponder.m in Sources */,
+				877D2E461DFC8BAE0004BB01 /* NSTreeNode.m in Sources */,
+				877D2DD71DFC8BAE0004BB01 /* NSDocument.m in Sources */,
+				877D2DCD1DFC8BAE0004BB01 /* NSColorWell.m in Sources */,
+				877D2DFC1DFC8BAE0004BB01 /* NSNib.m in Sources */,
+				877D2D6B1DFC8BAE0004BB01 /* GSGormLoader.m in Sources */,
+				877D2DAD1DFC8BAE0004BB01 /* NSAttributedString.m in Sources */,
+				877D2D6A1DFC8BAE0004BB01 /* GSGModelLoader.m in Sources */,
+				877D2D9A1DFC8BAE0004BB01 /* GSToolTips.m in Sources */,
+				877D2DF91DFC8BAE0004BB01 /* NSMenuView.m in Sources */,
+				877D2DA31DFC8BAE0004BB01 /* GSXibParser.m in Sources */,
+				877D2E221DFC8BAE0004BB01 /* NSSliderCell.m in Sources */,
+				877D2DD81DFC8BAE0004BB01 /* NSDocumentController.m in Sources */,
+				877D2E171DFC8BAE0004BB01 /* NSScreen.m in Sources */,
+				877D2DE01DFC8BAE0004BB01 /* NSFontManager.m in Sources */,
+				877D2E1A1DFC8BAE0004BB01 /* NSSearchField.m in Sources */,
+				877D2D861DFC8BAE0004BB01 /* GSTable.m in Sources */,
+				877D2E2E1DFC8BAE0004BB01 /* NSTableHeaderView.m in Sources */,
+				877D2E301DFC8BAE0004BB01 /* NSTabView.m in Sources */,
+				877D2E421DFC8BAE0004BB01 /* NSToolbarItem.m in Sources */,
+				877D2DAE1DFC8BAE0004BB01 /* NSBezierPath.m in Sources */,
+				877D2E181DFC8BAE0004BB01 /* NSScroller.m in Sources */,
+				877D2D731DFC8BAE0004BB01 /* GSIconManager.m in Sources */,
+				877D2DEA1DFC8BAE0004BB01 /* NSImage.m in Sources */,
+				877D2DA71DFC8BAE0004BB01 /* NSAffineTransform.m in Sources */,
+				877D2E351DFC8BAE0004BB01 /* NSTextContainer.m in Sources */,
+				877D2DCA1DFC8BAE0004BB01 /* NSColorPanel.m in Sources */,
+				877D2E0B1DFC8BAE0004BB01 /* NSPopover.m in Sources */,
+				877D2E391DFC8BAE0004BB01 /* NSTextStorage.m in Sources */,
+				877D2DAA1DFC8BAE0004BB01 /* NSAnimationContext.m in Sources */,
+				877D2DA91DFC8BAE0004BB01 /* NSAnimation.m in Sources */,
+				877D2DC61DFC8BAE0004BB01 /* NSCollectionView.m in Sources */,
+				877D2E241DFC8BAE0004BB01 /* NSSpeechSynthesizer.m in Sources */,
+				877D2D6C1DFC8BAE0004BB01 /* GSGormLoading.m in Sources */,
+				877D2D841DFC8BAE0004BB01 /* GSSlideView.m in Sources */,
+				877D2DFB1DFC8BAE0004BB01 /* NSMovieView.m in Sources */,
+				877D2DB91DFC8BAE0004BB01 /* NSBitmapImageRep+PNM.m in Sources */,
+				877D2E4E1DFC8BAE0004BB01 /* tiff.m in Sources */,
+				877D2E201DFC8BAE0004BB01 /* NSShadow.m in Sources */,
+				877D2DB31DFC8BAE0004BB01 /* NSBitmapImageRep+ICNS.m in Sources */,
+				877D2E161DFC8BAE0004BB01 /* NSSavePanel.m in Sources */,
+				877D2E2B1DFC8BAE0004BB01 /* NSStringDrawing.m in Sources */,
+				877D2D981DFC8BAE0004BB01 /* GSToolbarView.m in Sources */,
+				877D2DF51DFC8BAE0004BB01 /* NSMatrix.m in Sources */,
+				877D2D8B1DFC8BAE0004BB01 /* GSTheme.m in Sources */,
+				877D2DDA1DFC8BAE0004BB01 /* NSDrawer.m in Sources */,
+				877D2DED1DFC8BAE0004BB01 /* NSImageView.m in Sources */,
+				877D2E051DFC8BAE0004BB01 /* NSOpenPanel.m in Sources */,
+				877D2D911DFC8BAE0004BB01 /* GSThemePrintPanels.m in Sources */,
+				877D2E361DFC8BAE0004BB01 /* NSTextField.m in Sources */,
+				877D2D5D1DFC8BAE0004BB01 /* externs.m in Sources */,
+				877D2DF11DFC8BAE0004BB01 /* NSKeyValueBinding.m in Sources */,
+				877D2E0F1DFC8BAE0004BB01 /* NSPrintInfo.m in Sources */,
+				877D2DB11DFC8BAE0004BB01 /* NSBitmapImageRep+GIF.m in Sources */,
+				877D2DC01DFC8BAE0004BB01 /* NSButtonCell.m in Sources */,
+				877D2E071DFC8BAE0004BB01 /* NSPageLayout.m in Sources */,
+				877D2D9D1DFC8BAE0004BB01 /* GSVbox.m in Sources */,
+				877D2DEB1DFC8BAE0004BB01 /* NSImageCell.m in Sources */,
+				877D2E431DFC8BAE0004BB01 /* NSToolbarItemGroup.m in Sources */,
+				877D2D811DFC8BAE0004BB01 /* GSPrintOperation.m in Sources */,
+				877D2D7A1DFC8BAE0004BB01 /* GSLayoutManager.m in Sources */,
+				877D2DA21DFC8BAE0004BB01 /* GSXibObjectContainer.m in Sources */,
+				877D2D611DFC8BAE0004BB01 /* GSAutocompleteWindow.m in Sources */,
+				877D2DD51DFC8BAE0004BB01 /* NSDataLinkManager.m in Sources */,
+				877D2E1C1DFC8BAE0004BB01 /* NSSecureTextField.m in Sources */,
+				877D2E111DFC8BAE0004BB01 /* NSPrintPanel.m in Sources */,
+				877D2D6E1DFC8BAE0004BB01 /* GSHbox.m in Sources */,
+				877D2E011DFC8BAE0004BB01 /* NSObjectController.m in Sources */,
+				877D2DE11DFC8BAE0004BB01 /* NSFontPanel.m in Sources */,
+				877D2D971DFC8BAE0004BB01 /* GSToolbarCustomizationPalette.m in Sources */,
+				877D2DEF1DFC8BAE0004BB01 /* NSInputServer.m in Sources */,
+				877D2D9F1DFC8BAE0004BB01 /* GSXibElement.m in Sources */,
+				877D2DB71DFC8BAE0004BB01 /* NSBitmapImageRep+PNG.m in Sources */,
+				877D2D5F1DFC8BAE0004BB01 /* GSAnimator.m in Sources */,
+				877D2DDE1DFC8BAE0004BB01 /* NSFont.m in Sources */,
+				877D2D711DFC8BAE0004BB01 /* GSHorizontalTypesetter.m in Sources */,
+				877D2DCF1DFC8BAE0004BB01 /* NSComboBoxCell.m in Sources */,
+				877D2E2A1DFC8BAE0004BB01 /* NSStepperCell.m in Sources */,
+				877D2E0A1DFC8BAE0004BB01 /* NSPasteboard.m in Sources */,
+				877D2D651DFC8BAE0004BB01 /* GSDragView.m in Sources */,
+				877D2E2D1DFC8BAE0004BB01 /* NSTableHeaderCell.m in Sources */,
+				877D2D9C1DFC8BAE0004BB01 /* GSTypesetter.m in Sources */,
+				877D2E271DFC8BAE0004BB01 /* NSStatusBar.m in Sources */,
+				877D2E261DFC8BAE0004BB01 /* NSSplitView.m in Sources */,
+				877D2DDB1DFC8BAE0004BB01 /* NSEPSImageRep.m in Sources */,
+				877D2E2F1DFC8BAE0004BB01 /* NSTableView.m in Sources */,
+				877D2DA81DFC8BAE0004BB01 /* NSAlert.m in Sources */,
+				877D2D771DFC8BAE0004BB01 /* GSKeyBindingAction.m in Sources */,
+				877D2DD61DFC8BAE0004BB01 /* NSDataLinkPanel.m in Sources */,
+				877D2DDC1DFC8BAE0004BB01 /* NSEvent.m in Sources */,
+				877D2DD01DFC8BAE0004BB01 /* NSControl.m in Sources */,
+				877D2E371DFC8BAE0004BB01 /* NSTextFieldCell.m in Sources */,
+				877D2DF41DFC8BAE0004BB01 /* NSLevelIndicatorCell.m in Sources */,
+				877D2DF71DFC8BAE0004BB01 /* NSMenuItem.m in Sources */,
+				877D2DE21DFC8BAE0004BB01 /* NSForm.m in Sources */,
+				877D2DA11DFC8BAE0004BB01 /* GSXibLoading.m in Sources */,
+				877D2D801DFC8BAE0004BB01 /* GSPrinting.m in Sources */,
+				877D2DCB1DFC8BAE0004BB01 /* NSColorPicker.m in Sources */,
+				877D2D821DFC8BAE0004BB01 /* GSServicesManager.m in Sources */,
+				877D2D7F1DFC8BAE0004BB01 /* GSPDFPrintOperation.m in Sources */,
+				877D2E001DFC8BAE0004BB01 /* NSNibConnector.m in Sources */,
+				877D2DBC1DFC8BAE0004BB01 /* NSBrowser.m in Sources */,
+				877D2DF61DFC8BAE0004BB01 /* NSMenu.m in Sources */,
+				877D2DDD1DFC8BAE0004BB01 /* NSFileWrapper.m in Sources */,
+				877D2E061DFC8BAE0004BB01 /* NSOutlineView.m in Sources */,
+				877D2E4D1DFC8BAE0004BB01 /* NSWorkspace.m in Sources */,
+				877D2D941DFC8BAE0004BB01 /* GSThemeWindow.m in Sources */,
+				877D2DCE1DFC8BAE0004BB01 /* NSComboBox.m in Sources */,
+				877D2D951DFC8BAE0004BB01 /* GSTitleView.m in Sources */,
+				877D2DE51DFC8BAE0004BB01 /* NSGradient.m in Sources */,
+				877D2DBB1DFC8BAE0004BB01 /* NSBox.m in Sources */,
+				877D2DF81DFC8BAE0004BB01 /* NSMenuItemCell.m in Sources */,
+				877D2E211DFC8BAE0004BB01 /* NSSlider.m in Sources */,
+				877D2E121DFC8BAE0004BB01 /* NSProgressIndicator.m in Sources */,
+				877D2E1D1DFC8BAE0004BB01 /* NSSegmentedCell.m in Sources */,
+				877D2DEE1DFC8BAE0004BB01 /* NSInputManager.m in Sources */,
+				877D2E231DFC8BAE0004BB01 /* NSSound.m in Sources */,
+				877D2E1F1DFC8BAE0004BB01 /* NSSelection.m in Sources */,
+				877D2D681DFC8BAE0004BB01 /* GSFontInfo.m in Sources */,
+				877D2DE31DFC8BAE0004BB01 /* NSFormCell.m in Sources */,
+				877D2D881DFC8BAE0004BB01 /* GSTextFinder.m in Sources */,
+				877D2DE41DFC8BAE0004BB01 /* NSGlyphGenerator.m in Sources */,
+				877D2D701DFC8BAE0004BB01 /* GSHelpManagerPanel.m in Sources */,
+				877D2DEC1DFC8BAE0004BB01 /* NSImageRep.m in Sources */,
+				877D2DE71DFC8BAE0004BB01 /* NSHelpManager.m in Sources */,
+				877D2E1E1DFC8BAE0004BB01 /* NSSegmentedControl.m in Sources */,
+				877D2E4F1DFC8BAE0004BB01 /* win32-entry.c in Sources */,
+				877D2E321DFC8BAE0004BB01 /* NSText.m in Sources */,
+				877D2E251DFC8BAE0004BB01 /* NSSpellChecker.m in Sources */,
+				877D2DF31DFC8BAE0004BB01 /* NSLevelIndicator.m in Sources */,
+				877D2E041DFC8BAE0004BB01 /* NSOpenGLView.m in Sources */,
+				877D2E0E1DFC8BAE0004BB01 /* NSPrinter.m in Sources */,
+				877D2DD31DFC8BAE0004BB01 /* NSCustomImageRep.m in Sources */,
+				877D2DDF1DFC8BAE0004BB01 /* NSFontDescriptor.m in Sources */,
+				877D2D8C1DFC8BAE0004BB01 /* GSThemeDrawing.m in Sources */,
+				877D2D5E1DFC8BAE0004BB01 /* Functions.m in Sources */,
+				877D2DC51DFC8BAE0004BB01 /* NSClipView.m in Sources */,
+				877D2D751DFC8BAE0004BB01 /* GSInfoPanel.m in Sources */,
+				877D2E141DFC8BAE0004BB01 /* NSRulerMarker.m in Sources */,
+				877D2DC31DFC8BAE0004BB01 /* NSCachedImageRep.m in Sources */,
+				877D2E471DFC8BAE0004BB01 /* NSUserDefaultsController.m in Sources */,
+				877D2D8F1DFC8BAE0004BB01 /* GSThemeOpenSavePanels.m in Sources */,
+				877D2DCC1DFC8BAE0004BB01 /* NSColorSpace.m in Sources */,
+				877D2E481DFC8BAE0004BB01 /* NSView.m in Sources */,
+				877D2DC41DFC8BAE0004BB01 /* NSCell.m in Sources */,
+				877D2DA61DFC8BAE0004BB01 /* NSActionCell.m in Sources */,
+				877D2E341DFC8BAE0004BB01 /* NSTextBlock.m in Sources */,
+				877D2DF01DFC8BAE0004BB01 /* NSInterfaceStyle.m in Sources */,
+				877D2D901DFC8BAE0004BB01 /* GSThemePanel.m in Sources */,
+				877D2D641DFC8BAE0004BB01 /* GSDisplayServer.m in Sources */,
+				877D2D8A1DFC8BAE0004BB01 /* GSTextStorage.m in Sources */,
+				877D2DF21DFC8BAE0004BB01 /* NSLayoutManager.m in Sources */,
+				877D2E031DFC8BAE0004BB01 /* NSOpenGLPixelFormat.m in Sources */,
+				877D2DAC1DFC8BAE0004BB01 /* NSArrayController.m in Sources */,
+				877D2DD21DFC8BAE0004BB01 /* NSCursor.m in Sources */,
+				877D2E101DFC8BAE0004BB01 /* NSPrintOperation.m in Sources */,
+				877D2E3D1DFC8BAE0004BB01 /* NSTextView.m in Sources */,
+				877D2E081DFC8BAE0004BB01 /* NSPanel.m in Sources */,
+				877D2E1B1DFC8BAE0004BB01 /* NSSearchFieldCell.m in Sources */,
+				877D2E3F1DFC8BAE0004BB01 /* NSTokenFieldCell.m in Sources */,
+				877D2DE81DFC8BAE0004BB01 /* NSHelpPanel.m in Sources */,
+				877D2E4C1DFC8BAE0004BB01 /* NSWindowController.m in Sources */,
+				877D2DAB1DFC8BAE0004BB01 /* NSApplication.m in Sources */,
+				877D2D9E1DFC8BAE0004BB01 /* GSWindowDecorationView.m in Sources */,
+				877D2DBF1DFC8BAE0004BB01 /* NSButton.m in Sources */,
+				877D2E091DFC8BAE0004BB01 /* NSParagraphStyle.m in Sources */,
+				877D2DA01DFC8BAE0004BB01 /* GSXibLoader.m in Sources */,
+				877D2E3E1DFC8BAE0004BB01 /* NSTokenField.m in Sources */,
+				877D2E151DFC8BAE0004BB01 /* NSRulerView.m in Sources */,
+				877D2DFE1DFC8BAE0004BB01 /* NSNibAXRelationshipConnector.m in Sources */,
+				877D2DC91DFC8BAE0004BB01 /* NSColorList.m in Sources */,
+				877D2D851DFC8BAE0004BB01 /* GSStandardWindowDecorationView.m in Sources */,
+				877D2DC21DFC8BAE0004BB01 /* NSButtonImageSource.m in Sources */,
+				877D2E331DFC8BAE0004BB01 /* NSTextAttachment.m in Sources */,
+				877D2DD41DFC8BAE0004BB01 /* NSDataLink.m in Sources */,
+				877D2E491DFC8BAE0004BB01 /* NSViewController.m in Sources */,
+				877D2DFF1DFC8BAE0004BB01 /* NSNibBindingConnector.m in Sources */,
+				877D2D931DFC8BAE0004BB01 /* GSThemeTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		877D2C651DFC8B5E0004BB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		877D2C661DFC8B5E0004BB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		877D2C681DFC8B5E0004BB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Headers/Additions",
+					"$(SRCROOT)/Headers",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sj.GNUstep-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		877D2C691DFC8B5E0004BB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Headers/Additions",
+					"$(SRCROOT)/Headers",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sj.GNUstep-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877D2C591DFC8B5D0004BB01 /* Build configuration list for PBXProject "GNUstep-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877D2C651DFC8B5E0004BB01 /* Debug */,
+				877D2C661DFC8B5E0004BB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877D2C671DFC8B5E0004BB01 /* Build configuration list for PBXNativeTarget "GNUstepGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877D2C681DFC8B5E0004BB01 /* Debug */,
+				877D2C691DFC8B5E0004BB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877D2C561DFC8B5D0004BB01 /* Project object */;
+}
